@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <title type="text" xml:lang="en">BRACKE.DK - Webdevelopment</title>
+    <link type="application/atom+xml" href="http://bracke.dk/feeds/" rel="self"/>
+    <link type="text" href="http://bracke.dk" rel="alternate"/>
+    <updated>2012-08-11T21:27:26+02:00</updated>
+    <id>http://bracke.dk</id>
+    <author>
+        <name>Bent Bracke</name>
+    </author>
+    <rights>Creative Commons Attribution 3.0 License</rights>
+	
+	<entry>
+          <title>Node resources</title>
+	        <link href="http://bracke.dk/webdevelopment/node-resources"/>
+	        <updated>2012-08-10T00:00:00+02:00</updated>
+	        <id>http://bracke.dk/webdevelopment/node-resources/</id>
+	        <summary type="html">&lt;p&gt;I'm getting into NodeJS programming and have read a lot about it. My background is mainly server-side programming but I have also done a bit javascript on the client side and thus the async ways of Node are not completely foreign to me. It is however very different from what I'm used to, which is the main reason I'm interested in it!&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;The following is a list of resources that helped me in my quest to learn Node.&lt;/P&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://nodejs.org&quot; rel=&quot;external&quot; target=&quot;_blank&quot;&gt;NodeJS&lt;/a&gt; - NodeJS itself.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://expressjs.com/guide.html&quot; rel=&quot;external&quot;  target=&quot;_blank&quot;&gt;ExpressJS&lt;/a&gt; - A web application framework for NodeJS.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.youtube.com/watch?v=jo_B4LTHi3I&quot; rel=&quot;external&quot; target=&quot;_blank&quot;&gt;Introduction to NodeJS.&lt;/a&gt; - Video with Ryan Dahl giving an introduction to NodeJS.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://www.youtube.com/watch?v=SAc0vQCC6UQ&quot; rel=&quot;external&quot; target=&quot;_blank&quot;&gt;History of NodeJS.&lt;/a&gt; - Video with Ryan Dahl talking about the history of NodeJS.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://coding.smashingmagazine.com/2011/09/16/useful-node-js-tools-tutorials-and-resources/&quot; rel=&quot;external&quot; target=&quot;_blank&quot;&gt;Useful NodeJS Tools, Tutorials And Resources&lt;/a&gt; - A list Useful NodeJS Tools, Tutorials And Resources.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://stackoverflow.com/tags/node.js/info&quot; rel=&quot;external&quot; target=&quot;_blank&quot;&gt;More resources&lt;/a&gt; - A list of further Node resources.&lt;/li&gt;
+&lt;/ul&gt;</summary>
+	</entry>
+	# 
+	<entry>
+          <title>Note to Self - Regarding Apache on OSX Server</title>
+	        <link href="http://bracke.dk/webdevelopment/note-to-self-apache-mac"/>
+	        <updated>2012-07-28T00:00:00+02:00</updated>
+	        <id>http://bracke.dk/webdevelopment/note-to-self-apache-mac/</id>
+	        <summary type="html">&lt;p&gt;
+Note to Self - Remember the following when using Apache on a Mac with OSX Server:&lt;/P&gt;
+&lt;ul&gt;
+&lt;li&gt;The sites folder is at &quot;&lt;code&gt;/Library/Server/Web/Data/Sites/&lt;/code&gt;&quot;.&lt;/li&gt;
+&lt;li&gt;The server configuration is at &quot;&lt;code&gt;/Library/Server/Config/apache2/&lt;/code&gt;&quot;.&lt;/li&gt;
+&lt;li&gt;Set &quot;&lt;code&gt;AllowOverride All&lt;/code&gt;&quot; in the &quot;&lt;code&gt;/Library/Server/Config/apache2/sites/*.conf&lt;/code&gt;&quot; files.&lt;/li&gt;
+&lt;li&gt;Remove &lt;p&gt;&quot;&lt;code&gt;SetEnvIf User-Agent &quot;.*MSIE.*&quot; nokeepalive ssl-unclean-shutdown&lt;/code&gt;&quot;&lt;/p&gt; from &quot;&lt;code&gt;/Library/Server/Config/apache2/http_server_app.conf&lt;/code&gt;&quot; as it is obsolete.&lt;/li&gt;
+&lt;li&gt;Restart the server using &quot;&lt;code&gt;sudo apachectl restart&lt;/code&gt;&quot;.&lt;/li&gt;
+&lt;/ul&gt;</summary>
+	</entry>
+	# 
+	<entry>
+          <title>Fix for Old Browsers</title>
+	        <link href="http://bracke.dk/webdevelopment/Fix-for-old-browsers"/>
+	        <updated>2012-03-03T00:00:00+01:00</updated>
+	        <id>http://bracke.dk/webdevelopment/Fix-for-old-browsers/</id>
+	        <summary type="html">Supporting older browsers, in particular old Internet Explorer versions, can be very difficult and takes a lot of time and effort.
+If you agree with that statement, then I suggest you add the following rule to the .htaccess file of your Apache site.&lt;br&gt;&lt;br&gt;
+
+<div class="highlight"><pre><code class="css"><span class="o">&amp;</span><span class="nt">lt</span><span class="o">;</span><span class="nt">IfModule</span> <span class="nt">mod_rewrite</span><span class="nc">.c</span><span class="o">&amp;</span><span class="nt">gt</span><span class="o">;</span>
+  <span class="nt">RewriteEngine</span> <span class="nt">on</span>
+  <span class="nt">RewriteCond</span> <span class="o">%</span><span class="p">{</span><span class="n">HTTP</span><span class="err">_</span><span class="n">USER</span><span class="err">_</span><span class="n">AGENT</span><span class="p">}</span> <span class="nt">MSIE</span><span class="err">\</span> <span class="o">([</span><span class="nt">5678</span><span class="o">])</span><span class="err">\</span><span class="o">.</span>
+  <span class="nt">RewriteRule</span> <span class="o">.*</span> <span class="nt">http</span><span class="o">://</span><span class="nt">www</span><span class="nc">.browser-update.org</span><span class="o">/</span><span class="nt">update</span><span class="nc">.html</span> <span class="o">[</span><span class="nt">R</span><span class="o">=</span><span class="nt">302</span><span class="o">,</span><span class="nt">L</span><span class="o">]</span>
+<span class="o">&amp;</span><span class="nt">lt</span><span class="o">;/</span><span class="nt">IfModule</span><span class="o">&amp;</span><span class="nt">gt</span><span class="o">;</span>
+</code></pre>
+</div>
+&lt;br&gt;&lt;br&gt;
+It will make your life better and the world a better place!&lt;br&gt;
+Visit &lt;a href=&quot;http://bracke.dk&quot;&gt;bracke.dk&lt;/a&gt; with an old IE version to get a demo.</summary>
+	</entry>
+	# 
+	<entry>
+          <title>Portable Coding</title>
+	        <link href="http://bracke.dk/webdevelopment/portable-coding"/>
+	        <updated>2010-05-01T00:00:00+02:00</updated>
+	        <id>http://bracke.dk/webdevelopment/portable-coding/</id>
+	        <summary type="html">&lt;p&gt;No, this is not about creating applications that can run on multiple platforms. Instead this is about being able to move from one computer to another and being ready to code immediately without first having to install a bunch of applications.&lt;/p&gt;
+
+&lt;p&gt;
+&lt;h3&gt;Vision&lt;/h3&gt;
+Imagine being able to move between your work PC, your computer at home and a PC at a client/customer and always having you favorite tools ready to be used. Imagine being ready to create new ASP.NET page on a new PC without first having to install IIS, Visual Studio and whatever other applications you need. That is what I tried to realise lately.&lt;/p&gt;
+
+&lt;p&gt;
+&lt;h3&gt;Easy solution&lt;/h3&gt;
+The &amp;#8220;easy&amp;#8221; solution is to grab installation files of all the needed programs and dump them on a usb flash drive or maybe even your phone. This way you will have everything at hand and just need to install the program instead of first having to find and download all install files. But installation still takes time and if its only a temporary work pc you will eventually have to remove all those applications again.&lt;/p&gt;
+
+&lt;p&gt;
+&lt;h3&gt;Portable - for real&lt;/h3&gt;
+The real solution is to install your applications directly onto the flash drive and run them from the flash drive instead of from the PC. This way your apps are ready immediately and they never &amp;#8220;touch&amp;#8221; the PC and thus, don&amp;#8217;t ever need to be uninstalled.&lt;/p&gt;
+&lt;p&gt;Many applications won&amp;#8217;t install that way. They insist on modifying things on the PC. But some work just fine without such an installation and many others have special portable versions which can handle these restrictions. These portable applications are usually also a bit smaller than the normal versions of these apps. They can be found all over the web, but a nice collection is at portableapps.com&lt;/p&gt;
+
+&lt;p&gt;
+&lt;h3&gt;Portable developer apps&lt;/h3&gt;
+I have gathered portable versions of my favorite developer apps:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a rel=&quot;external&quot;  target=&quot;_blank&quot; href=&quot;http://portableapps.com/apps/development/notepadpp_portable&quot;&gt;Notepad++&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a rel=&quot;external&quot;  target=&quot;_blank&quot; href=&quot;http://portableapps.com/apps/utilities/winmerge_portable&quot;&gt;WinMerge&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a rel=&quot;external&quot;  target=&quot;_blank&quot; href=&quot;http://www.ghisler.com/usbinst.htm&quot;&gt;TotalCommander&lt;/a&gt; (USB copy tool)&lt;/li&gt;
+&lt;li&gt;&lt;a rel=&quot;external&quot;  target=&quot;_blank&quot; href=&quot;http://www.softpedia.com/get/PORTABLE-SOFTWARE/Programming/Portable-Git.shtml&quot;&gt;Git&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a rel=&quot;external&quot;  target=&quot;_blank&quot; href=&quot;http://blogs.msdn.com/dmitryr/default.aspx&quot;&gt;Cassini&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;
+&lt;h3&gt;Portable non-developer apps&lt;/h3&gt;
+I have also added a few non-developer apps:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a rel=&quot;external&quot;  target=&quot;_blank&quot; href=&quot;http://portableapps.com/apps/office/openoffice_portable&quot;&gt;OpenOffice&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a rel=&quot;external&quot;  target=&quot;_blank&quot; href=&quot;http://portableapps.com/apps/utilities/clamwin_portable&quot;&gt;ClamAV&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;All these apps combined only take 500MB of space, of which OpenOffice takes 250MB. The Cassini version is (.3202) from Dmitry Robsman is available and compiles just fine in Visual Studio 2010. There is another version available with a slightly different GUI, but I have had some problems with it so I defaulted back to .3202.&lt;/p&gt;</summary>
+	</entry>
+	# 
+	<entry>
+          <title>Typography</title>
+	        <link href="http://bracke.dk/webdevelopment/typography"/>
+	        <updated>2010-04-18T00:00:00+02:00</updated>
+	        <id>http://bracke.dk/webdevelopment/typography/</id>
+	        <summary type="html">&lt;p&gt;It seems typography is the latest and greatest among web designers. All web designers blog about it and magazines write about it. It&amp;#8217;s almost as if it was a new thing. It not new and has in fact been known and used for a very, very long time. But on the web it has seen very little attention. On most webpages choosing between two web safe fonts is the height of typography.&lt;/p&gt;
+
+&lt;p&gt;
+&lt;h3&gt;Much-needed Focus on Typography&lt;/h3&gt;
+I think a renewed focus on typography is very much-needed. I have myself never really given it much thought and this webpage has very much been a victim of that. I will therefore use bracke.dk as my platform for experimenting with typography.&lt;/p&gt;
+
+&lt;p&gt;
+&lt;h3&gt;Basic Things&lt;/h3&gt;	
+For now I have changed a few basic things and I will check these changes over next few weeks and possibly tweak them further.
+&lt;ul&gt;
+&lt;li&gt;Serif font &amp;#8220;Georgia&amp;#8221;&lt;/li&gt;
+&lt;li&gt;Indented first line  (css: &lt;code&gt;text-indent:50px;&lt;/code&gt;)&lt;/li&gt;
+&lt;li&gt;Large first letter (css: &lt;code&gt;p:first-letter { font-size: 1.8em; }&lt;/code&gt;)&lt;/li&gt;
+&lt;li&gt;Quoted text in small caps (css: &lt;code&gt;quote { font-variant: small-caps; }&lt;/code&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;</summary>
+	</entry>
+	# 
+	<entry>
+          <title>Image Shadows</title>
+	        <link href="http://bracke.dk/webdevelopment/image-shadows"/>
+	        <updated>2010-04-18T00:00:00+02:00</updated>
+	        <id>http://bracke.dk/webdevelopment/image-shadows/</id>
+	        <summary type="html">I have looked into improving the way images are presented in my blog. I want them to have a shadow, without having to change the pictures. &lt;br&gt;&lt;br&gt;Helpfully the new CSS3 has the box-shadow feature which is just what I need. Obviously things aren&amp;#8217;t that simple, since the browser support for box-shadow is limited. Instead I have used the following concoction:&lt;br&gt;&lt;br&gt;
+
+<div class="highlight"><pre><code class="css"><span class="nt">img</span> <span class="p">{</span>
+ <span class="n">box</span><span class="o">-</span><span class="n">shadow</span><span class="o">:</span> <span class="m">3px</span> <span class="m">3px</span> <span class="m">3px</span> <span class="m">#666</span><span class="p">;</span>
+ <span class="o">-</span><span class="n">moz</span><span class="o">-</span><span class="n">box</span><span class="o">-</span><span class="n">shadow</span><span class="o">:</span> <span class="m">3px</span> <span class="m">3px</span> <span class="m">3px</span> <span class="m">#666</span><span class="p">;</span>
+ <span class="o">-</span><span class="n">webkit</span><span class="o">-</span><span class="n">box</span><span class="o">-</span><span class="n">shadow</span><span class="o">:</span> <span class="m">3px</span> <span class="m">3px</span> <span class="m">3px</span> <span class="m">#666</span><span class="p">;</span>
+ <span class="n">filter</span><span class="o">:</span> <span class="n">progid</span><span class="o">:</span><span class="n">DXImageTransform</span><span class="o">.</span><span class="n">Microsoft</span><span class="o">.</span><span class="n">dropShadow</span><span class="p">(</span><span class="k">color</span><span class="o">=</span><span class="m">#666</span><span class="o">,</span> <span class="n">offX</span><span class="o">=</span><span class="m">3</span><span class="o">,</span> <span class="n">offY</span><span class="o">=</span><span class="m">3</span><span class="o">,</span> <span class="n">positive</span><span class="o">=</span><span class="n">true</span><span class="p">);</span>
+<span class="p">}</span>
+</code></pre>
+</div>
+
+&lt;br&gt;&lt;br&gt;This should make sure all pictures will get a shadow no matter what browser is used to display them.</summary>
+	</entry>
+	# 
+	<entry>
+          <title>DNS Redirect</title>
+	        <link href="http://bracke.dk/webdevelopment/dns-redirect"/>
+	        <updated>2010-04-05T00:00:00+02:00</updated>
+	        <id>http://bracke.dk/webdevelopment/dns-redirect/</id>
+	        <summary type="html">&lt;p&gt;My Squarespace address is bbracke.squarespace.com which is neither good nor really bad. I have another address www.bracke.dk which is better and the obvious solution would be to perform a DNS redirect but the basic Squarespace account does not support that.&lt;/p&gt;
+
+&lt;p&gt;
+&lt;h3&gt;DNS redirection and SquareSpace Pro&lt;/h3&gt;
+Well, now I have upgraded my Squarespace to &amp;#8216;Pro&amp;#8217; which supports DNS redirection. With the help of the free DNS service &lt;a rel=&quot;external&quot; href=&quot;http://www.gratisdns.dk&quot;&gt;gratisdns.dk&lt;/a&gt; and a few changed settings in the Squarespace setup, I performed the redirect. Now bracke.dk and www.bracke.dk both point to bbracke.squarespace.com.&lt;/p&gt;</summary>
+	</entry>
+	# 
+	<entry>
+          <title>Site Revamp</title>
+	        <link href="http://bracke.dk/webdevelopment/site-revamp"/>
+	        <updated>2010-04-04T00:00:00+02:00</updated>
+	        <id>http://bracke.dk/webdevelopment/site-revamp/</id>
+	        <summary type="html">&lt;p&gt;I have never really been satisfied with the look of this site. It seemed quite dull but also crowded.&lt;/p&gt;
+
+&lt;p&gt;
+&lt;h3&gt;Crowded page&lt;/h3&gt;
+The cause for the crowdedness was obvious: All those buttons on the right side of the page. They were links to various Web sites and were meant to make it easy for readers to cite content on my site. They took a lot of space, in fact they filled almost the entire column and were the prime reason for choosing a three column layout instead of a two column layout. I chose to remove them and switch to a two column layout.&lt;/p&gt;
+
+&lt;p&gt;
+&lt;h3&gt;Visual interest&lt;/h3&gt;
+In order to add visual interest I inserted a picture into the top section, it made a huge difference. The picture itself is a photo of the column supporting the roof of the Sony center next to  Potsdamer Platz in Berlin. No fancy effects have been used, it has simply been rotated and cropped.&lt;/p&gt;
+
+&lt;p&gt;I hope it helps!&lt;/p&gt;</summary>
+	</entry>
+	# 
+	<entry>
+          <title>Move to SquareSpace</title>
+	        <link href="http://bracke.dk/webdevelopment/moved-to-squarespace"/>
+	        <updated>2009-08-08T00:00:00+02:00</updated>
+	        <id>http://bracke.dk/webdevelopment/moved-to-squarespace/</id>
+	        <summary type="html">&lt;p&gt;	
+I have recently moved my website to Squarespace and also chosen to use my Squarespace site as my blog. My old Blogspot blog is no more. Though I have managed to import the two (!) poultry blog entries from that blog into Squarespace.&lt;/p&gt;
+
+&lt;p&gt;
+&lt;h3&gt;Import / Export &lt;/h3&gt;	
+That  import function and the corresponding export function are very nice and make switching to Squarespace (and from)  much easier. Although I probably would have survived having to add those two entries myself.&lt;/p&gt;
+
+&lt;p&gt;
+&lt;h3&gt;iPhone App&lt;/h3&gt;
+So far I am&amp;nbsp;very satisfied with Squarespace. I do miss the promised iPhone app. It would be very useful to be able to change my Squarespace with a dedicated app. Using  the Squarespace website with Mobile Safari for that task is a bit cumbersome.&lt;/p&gt;</summary>
+	</entry>
+	# 
+</feed>

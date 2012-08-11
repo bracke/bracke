@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <title type="text" xml:lang="en">BRACKE.DK - Ios</title>
+    <link type="application/atom+xml" href="http://bracke.dk/feeds/" rel="self"/>
+    <link type="text" href="http://bracke.dk" rel="alternate"/>
+    <updated>2012-08-11T21:27:26+02:00</updated>
+    <id>http://bracke.dk</id>
+    <author>
+        <name>Bent Bracke</name>
+    </author>
+    <rights>Creative Commons Attribution 3.0 License</rights>
+	
+	<entry>
+          <title>SquareSpace iPhone App</title>
+	        <link href="http://bracke.dk/ios/squarespace-iphone-app"/>
+	        <updated>2009-11-06T00:00:00+01:00</updated>
+	        <id>http://bracke.dk/ios/squarespace-iphone-app/</id>
+	        <summary type="html">&lt;p&gt;Squarespace has just released their iPhone app. The app is free and only connects to Squarespace accounts.&lt;/p&gt;
+
+&lt;p&gt;
+&lt;h3&gt;Great GUI - no special features&lt;/h3&gt;
+Featurewise it is very much like many other blogging apps. It supports editing of new and existing blog posts and supports images and tagging. It does not offer any support for markup of text.&lt;br/&gt; Where the Squarespace app is different is the GUI and statistics. The GUI is very smooth and intuitive and the statistics are very nice, although also very depressing regarding my site.&lt;/p&gt;
+
+&lt;p&gt;I hope more features will be added soon, it is the nicest blogging application I have tried yet and it&amp;#8217;s what I have used to write this post.&lt;/p&gt;</summary>
+	</entry>
+	# 
+	<entry>
+          <title>iPhone Development with MonoTouch</title>
+	        <link href="http://bracke.dk/ios/iphone-development-mono-touch"/>
+	        <updated>2009-08-16T00:00:00+02:00</updated>
+	        <id>http://bracke.dk/ios/iphone-development-mono-touch/</id>
+	        <summary type="html">&lt;p&gt;I have recently become interested in developing for the iPhone OS (iPhone, iPod Touch). The obvious way to do that is to use XCode and program in Objective C. But I would rather not do that. Not because I dislike the language (seems quite nice indeed) but simply because I think the time spend learning the intricacies of Objective C would be more productive, if I spend it programming in a language I already know. That means C#, Ada or some BASIC dialect.&lt;/p&gt;
+
+&lt;p&gt;
+&lt;h3&gt;MonoTouch&lt;/h3&gt;
+This is where MonoTouch comes in. Mono is a open source reimplementation of .NET which runs on many platforms including Mac OS. With MonoTouch it is supposedly possible to develop applications for the iPhone OS in C#. Even in a way that is acceptable by Apple, which means no dynamic code.&lt;/p&gt;
+
+&lt;p&gt;
+&lt;h3&gt;C# experience&lt;/h3&gt;
+This route would by far be the easiest way for me. I program using C# daily at work and have done so for 3 years. Unfortunately MonoTouch is not released yet and I don&amp;#8217;t seem to have made the cut for the beta testing team :-/&lt;/p&gt;
+
+&lt;p&gt;I guess I have to wait for the official release.&lt;/p&gt;</summary>
+	</entry>
+	# 
+	<entry>
+          <title>Blogging with my iPhone</title>
+	        <link href="http://bracke.dk/ios/blogging-with-my-iphone"/>
+	        <updated>2009-08-08T00:00:00+02:00</updated>
+	        <id>http://bracke.dk/ios/blogging-with-my-iphone/</id>
+	        <summary type="html">&lt;p&gt;I would like to use my iPhone to blog to maximize the chances of any blogging actually happening! There are many blogging Apps in the AppStore, but they all seem to have the same (very) basic feature set.&lt;/p&gt;
+
+&lt;p&gt;
+&lt;h3&gt;Blog features - no markup&lt;/h3&gt;
+They all allow you to enter text and to add an image. Some also allow links, tags and smilies. But none of them support basic text markup like bold or italics! I currently use BlogPress and this app also has this shortcoming.
+&lt;/p&gt;
+
+&lt;p&gt;
+&lt;h3&gt;Crucial?&lt;/h3&gt;
+Obviously this is not crucial and certainly not enough to prevent the use of these blogging apps. It is strange though and I certainly would like to be able to mark text. If there was a blogging app with this feature I would buy it.&lt;/p&gt;
+
+&lt;p&gt;Maybe the coming Squarespace app or the MacJournal Touch app will support this when they arrive. One can hope.&lt;/p&gt;</summary>
+	</entry>
+	# 
+</feed>
