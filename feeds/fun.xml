@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <title type="text" xml:lang="en">BRACKE.DK - Fun</title>
+    <link type="application/atom+xml" href="http://bracke.dk/feeds/" rel="self"/>
+    <link type="text" href="http://bracke.dk" rel="alternate"/>
+    <updated>2012-08-11T21:27:26+02:00</updated>
+    <id>http://bracke.dk</id>
+    <author>
+        <name>Bent Bracke</name>
+    </author>
+    <rights>Creative Commons Attribution 3.0 License</rights>
+	
+	<entry>
+          <title>Walking, the Google way</title>
+	        <link href="http://bracke.dk/fun/walking-the-google-way"/>
+	        <updated>2010-04-15T00:00:00+02:00</updated>
+	        <id>http://bracke.dk/fun/walking-the-google-way/</id>
+	        <summary type="html">&lt;p&gt;I&amp;#8217;m planning a trip to Vienna. To get a sense of the distance involved, I used the Google Maps &amp;#8220;Get directions&amp;#8221; function. It worked as expected and showed me the picture below.&lt;/p&gt;
+
+&lt;p align=&quot;center&quot;&gt;&lt;a href=&quot;http://maps.google.com/maps?f=d&amp;amp;source=s_d&amp;amp;saddr=ikast&amp;amp;daddr=Vienna,+Austria&amp;amp;hl=en&amp;amp;geocode=&amp;amp;mra=ls&amp;amp;sll=36.949892,-95.712891&amp;amp;sspn=52.103593,77.34375&amp;amp;ie=UTF8&amp;amp;t=h&amp;amp;z=6&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;/img/ViennaByCar.png&quot; width=&quot;480&quot; alt=&quot;To Vienna by Car&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;I then, just for fun, asked it for walking directions. This function is still in beta and Google writes that the calculated routes &amp;#8220;may be missing sidewalks or pedestrian paths&amp;#8221;. They sure do!&lt;/p&gt;
+
+&lt;p align=&quot;center&quot;&gt;&lt;a href=&quot;http://maps.google.com/maps?f=d&amp;amp;source=s_d&amp;amp;saddr=ikast&amp;amp;daddr=Vienna,+Austria&amp;amp;hl=en&amp;amp;geocode=FVWdWAMdULOLACn9n4kg2ZVLRjGQnFAdzK8ACg;FTad3wIdKtT5ACl_Kp0lmwdtRzHoE6NuBMIEOA&amp;amp;mra=ls&amp;amp;dirflg=w&amp;amp;sll=52.167385,13.040295&amp;amp;sspn=10.180852,19.335938&amp;amp;ie=UTF8&amp;amp;ll=52.187405,12.766113&amp;amp;spn=10.177784,19.335937&amp;amp;t=h&amp;amp;z=6&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;/img/ViennaOnFoot.png&quot; width=&quot;437&quot; alt=&quot;To Vienna on foot&quot; /&gt;&lt;/a&gt;&lt;/p&gt;</summary>
+	</entry>
+	# 
+	<entry>
+          <title>HoMM V Easter egg</title>
+	        <link href="http://bracke.dk/fun/gaming/homm-5-easteregg"/>
+	        <updated>2010-04-04T00:00:00+02:00</updated>
+	        <id>http://bracke.dk/fun/gaming/homm-5-easteregg/</id>
+	        <summary type="html">I have recently started playing HoMM V again. It has been a year or two since I played it last time. It is just as fun as I remembered it to be and a good time waster, while I wait for HoMM VI !&lt;br&gt;&lt;br&gt;
+While hurrying through the Haven campaign I stumbled across the following peculiar site. I have never noticed that particular kind of unit before, I wonder which faction it belongs to&amp;hellip;&lt;br&gt;&lt;br&gt;&lt;img width=&quot;600&quot; src=&quot;/img/hommvopt.jpg&quot; alt=&quot;Picture of tank in HoMMV&quot; /&gt;</summary>
+	</entry>
+	# 
+</feed>

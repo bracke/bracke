@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <title type="text" xml:lang="en">BRACKE.DK - Networking</title>
+    <link type="application/atom+xml" href="http://bracke.dk/feeds/" rel="self"/>
+    <link type="text" href="http://bracke.dk" rel="alternate"/>
+    <updated>2012-08-11T21:27:26+02:00</updated>
+    <id>http://bracke.dk</id>
+    <author>
+        <name>Bent Bracke</name>
+    </author>
+    <rights>Creative Commons Attribution 3.0 License</rights>
+	
+	<entry>
+          <title>Profiles</title>
+	        <link href="http://bracke.dk/networking/profiles"/>
+	        <updated>2010-04-04T00:00:00+02:00</updated>
+	        <id>http://bracke.dk/networking/profiles/</id>
+	        <summary type="html">&lt;p&gt;I have several profile pages on the web. It seems every site on the web requires you to enter all sorts of private information and many publish this data as a user profile. I usually only enter what is necessary  or required and I try to activate all privacy options.&lt;/p&gt;
+
+&lt;p&gt;
+&lt;h3&gt;Limiting profiles&lt;/h3&gt;
+There are a few exceptions though. I  like the idea of having a public profile on which I present myself and my qualifications. But I would like to limit the number of profiles so that&amp;#8217;s it easier to keep them up to date.&lt;/p&gt;
+
+&lt;p&gt;
+&lt;h3&gt;LinkedIn and others&lt;/h3&gt;
+I have chosen LinkedIn as my main public profile but I have also a Facebook page as the seems to be no way to avoid it. I also have profiles on Savannah and Sourceforge since I have projects registered there.&lt;/p&gt;
+
+&lt;p&gt;I have now updated those 4 pages and hope to keep them updated from now on. I have placed links to my profile pages in the  right column. More will inevitably follow.&lt;/p&gt;</summary>
+	</entry>
+	# 
+	<entry>
+          <title>My First Blog Posting</title>
+	        <link href="http://bracke.dk/networking/my-first-blog-posting"/>
+	        <updated>2007-09-07T00:00:00+02:00</updated>
+	        <id>http://bracke.dk/networking/my-first-blog-posting/</id>
+	        <summary type="html">So this is it, I have a blog! This is the first post to my blog, well actually the first was a test posting but that doesn&amp;#8217;t count!&lt;br&gt;&lt;br&gt;
+I chose to have a blog because I wanted to try something different than I usually do. I&amp;#8217;m a web developer, I usually create the infra structure / code of websites, not the content. With this blog Google delivers the infrastructure and I deliver the content (are you bored yet?) .&lt;br&gt;&lt;br&gt;
+Anyway, I figure I&amp;#8217;m going to talk about what interests me, which is the web in general and web development in particular, but also about music, books and most importantly the movies and TV series I watch. It will  likely not interest anyone, but maybe my written English will improve and perhaps I will have had some fun, ranting about random things on my mind.
+</summary>
+	</entry>
+	# 
+</feed>

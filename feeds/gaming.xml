@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <title type="text" xml:lang="en">BRACKE.DK - Gaming</title>
+    <link type="application/atom+xml" href="http://bracke.dk/feeds/" rel="self"/>
+    <link type="text" href="http://bracke.dk" rel="alternate"/>
+    <updated>2012-08-11T21:27:26+02:00</updated>
+    <id>http://bracke.dk</id>
+    <author>
+        <name>Bent Bracke</name>
+    </author>
+    <rights>Creative Commons Attribution 3.0 License</rights>
+	
+	<entry>
+          <title>Command &amp; Conquer 4 vs. MacMini and Paralells</title>
+	        <link href="http://bracke.dk/gaming/command-conquer-4-vs-macmini-and-paralells"/>
+	        <updated>2010-04-05T00:00:00+02:00</updated>
+	        <id>http://bracke.dk/gaming/command-conquer-4-vs-macmini-and-paralells/</id>
+	        <summary type="html">&lt;p&gt;My main computer at home is a MacMini (current gen.) which is a very nice machine but probably never meant as gaming machine. Nevertheless I decided to try running C&amp;amp;C 4 on it using Parallels.&lt;/p&gt;
+
+&lt;p&gt;
+&lt;h3&gt;It works!&lt;/h3&gt;
+Surprisingly it seems to work very well. The game runs without a hitch, except for the music which sometimes does skip a bit or two.&lt;/p&gt;
+
+&lt;p&gt;Note: I have lowered the graphics setting and I have not played the game much. Perhaps later and more complex parts of the game, have greater requirements.&lt;/p&gt;
+
+&lt;p&gt;
+&lt;h3&gt;Waiting for Red Alert 4&lt;/h3&gt;
+This is actually the first time I&amp;#8217;m playing a game in the original Command &amp;amp; Conquer series. I have however played both Red Alert 2, Red Alert 3 and Command &amp;amp; Conquer: Generals.&lt;/p&gt;
+
+&lt;p&gt;I like playing it, but I would prefer playing Red Alert 4, which hopefully is on its way!&lt;/p&gt;</summary>
+	</entry>
+	# 
+	<entry>
+          <title>HoMM V Easter egg</title>
+	        <link href="http://bracke.dk/fun/gaming/homm-5-easteregg"/>
+	        <updated>2010-04-04T00:00:00+02:00</updated>
+	        <id>http://bracke.dk/fun/gaming/homm-5-easteregg/</id>
+	        <summary type="html">I have recently started playing HoMM V again. It has been a year or two since I played it last time. It is just as fun as I remembered it to be and a good time waster, while I wait for HoMM VI !&lt;br&gt;&lt;br&gt;
+While hurrying through the Haven campaign I stumbled across the following peculiar site. I have never noticed that particular kind of unit before, I wonder which faction it belongs to&amp;hellip;&lt;br&gt;&lt;br&gt;&lt;img width=&quot;600&quot; src=&quot;/img/hommvopt.jpg&quot; alt=&quot;Picture of tank in HoMMV&quot; /&gt;</summary>
+	</entry>
+	# 
+</feed>

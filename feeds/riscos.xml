@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <title type="text" xml:lang="en">BRACKE.DK - Riscos</title>
+    <link type="application/atom+xml" href="http://bracke.dk/feeds/" rel="self"/>
+    <link type="text" href="http://bracke.dk" rel="alternate"/>
+    <updated>2012-08-11T21:27:26+02:00</updated>
+    <id>http://bracke.dk</id>
+    <author>
+        <name>Bent Bracke</name>
+    </author>
+    <rights>Creative Commons Attribution 3.0 License</rights>
+	
+	<entry>
+          <title>RISC OS Software</title>
+	        <link href="http://bracke.dk/riscos/risc-os-software"/>
+	        <updated>2009-08-16T00:00:00+02:00</updated>
+	        <id>http://bracke.dk/riscos/risc-os-software/</id>
+	        <summary type="html">&lt;p&gt;My first computer was a Commodore 64, but both the second and third computers were RISC OS machines (Acorn Archimedes A3010 and Acorn RiscPC). I have used RISC OS for close to 15 years and I have only recently moved to the Mac.&lt;/p&gt;
+
+&lt;p&gt;
+&lt;h3&gt;Source code available&lt;/h3&gt;
+During those RISC OS days I created a bunch of software, most in Ada, some in BASIC and even some in ARM assembler. Most of those programs are still available on my ArcSite.de page, some also on Sourceforge. In order to streamline things a bit I have created a sub page on my SquareSpace site with all those programs. I hope this will be of use to someone.&lt;/p&gt;
+
+&lt;p&gt;
+&lt;h3&gt;No further development&lt;/h3&gt;
+I will not continue development of this software, but most of them are supplied with source code and under a very liberal license (LGPL). It should therefore be possible for any coder to develop them further, should they wish to do so.&lt;/p&gt;</summary>
+	</entry>
+	# 
+</feed>
