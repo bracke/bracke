@@ -3,9 +3,38 @@
 <channel>
 	<title></title>
  	<link>href="http://bracke.dk/xmlfeed.xml"</link>
-	<lastBuildDate>2012-11-04T18:17:43+01:00</lastBuildDate>
-	<pubDate>2012-11-04T18:17:43+01:00</pubDate>
+	<lastBuildDate>2012-11-04T19:40:48+01:00</lastBuildDate>
+	<pubDate>2012-11-04T19:40:48+01:00</pubDate>
 
+	
+	<item>
+		<title>GitHub pages</title>
+		<link>http://bracke.dk/webdevelopment/Github-pages</link>
+		<updated>2012-11-04T00:00:00+01:00</updated>
+		<guid>http://bracke.dk/webdevelopment/Github-pages</guid>
+		<description>I have for quite a while been hosting my homepage (the one you are looking at!) on my own server at home, a MacMini. I have now finally moved the site to GitHub.&lt;br&gt;&lt;br&gt;
+
+
+&lt;h3&gt;The Process&lt;/h3&gt;
+The site is still created as a series of static pages by jekyll, a static site generator. I use a slightly modified version of Jekyll and a bunch of extensions.&lt;br&gt;&lt;br&gt;
+
+
+The following assumes that you have registered on GitHub and created a repository for your site. Clone this repository using GIT or the GitHub app.
+&lt;ul&gt;
+
+    &lt;li&gt;Open a command line and make the local site directory the current directory.&lt;/li&gt;
+    &lt;li&gt;Run the jekyll instruction which creates the static site.&lt;/li&gt;
+    &lt;li&gt;Copy the resulting files into the cloned repository.&lt;/li&gt;
+    &lt;li&gt;Commit the changes and push/sync them to the gh-pages branch using GIT or the GitHub app.&lt;/li&gt;
+
+&lt;/ul&gt;
+&lt;br&gt;&lt;br&gt;
+I have pointed the DNS to the GitHub ip address and added a CNAME file to the website root, which contains a single line: &quot;bracke.dk&quot; (my domain).&lt;br&gt;&lt;br&gt;
+The website is pushed to the gh-pages branch of repository and that branch is set as the default branch (look at the &quot;Admin&quot; section of your site on GitHub).
+&lt;br&gt;&lt;br&gt;
+The above was not obvious to me and I found the documentation on GitHub quite confusing on this matter.</description>
+		<pubDate>2012-11-04T00:00:00+01:00</pubDate>
+	</item>
 	
 	<item>
 		<title>Node resources</title>

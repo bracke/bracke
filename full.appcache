@@ -1,5 +1,5 @@
 CACHE MANIFEST
-# rev 2012-11-04T18:17:43+01:00
+# rev 2012-11-04T19:40:48+01:00
 /index
 /about
 /apps
@@ -13,6 +13,7 @@ CACHE MANIFEST
 /search
 /styles/fonts/lobster.woff
 /favicon.ico
+/webdevelopment/Github-pages
 /webdevelopment/node-resources
 /webdevelopment/note-to-self-apache-mac
 /webdevelopment/Fix-for-old-browsers
