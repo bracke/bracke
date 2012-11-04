@@ -3,7 +3,7 @@
     <title type="text" xml:lang="en">BRACKE.DK - Webdevelopment</title>
     <link type="application/atom+xml" href="http://bracke.dk/feeds/" rel="self"/>
     <link type="text" href="http://bracke.dk" rel="alternate"/>
-    <updated>2012-11-04T19:40:48+01:00</updated>
+    <updated>2012-11-04T20:01:15+01:00</updated>
     <id>http://bracke.dk</id>
     <author>
         <name>Bent Bracke</name>
@@ -15,7 +15,7 @@
 	        <link href="http://bracke.dk/webdevelopment/Github-pages"/>
 	        <updated>2012-11-04T00:00:00+01:00</updated>
 	        <id>http://bracke.dk/webdevelopment/Github-pages/</id>
-	        <summary type="html">I have for quite a while been hosting my homepage (the one you are looking at!) on my own server at home, a MacMini. I have now finally moved the site to GitHub.&lt;br&gt;&lt;br&gt;
+	        <summary type="html">I have for quite a while been hosting my homepage (the one you are looking at!) on my own server at home, a MacMini. I have now finally moved the site to GitHub.&lt;br&gt;
 
 
 &lt;h3&gt;The Process&lt;/h3&gt;
@@ -31,11 +31,12 @@ The following assumes that you have registered on GitHub and created a repositor
     &lt;li&gt;Commit the changes and push/sync them to the gh-pages branch using GIT or the GitHub app.&lt;/li&gt;
 
 &lt;/ul&gt;
-&lt;br&gt;&lt;br&gt;
+&lt;br&gt;
 I have pointed the DNS to the GitHub ip address and added a CNAME file to the website root, which contains a single line: &quot;bracke.dk&quot; (my domain).&lt;br&gt;&lt;br&gt;
 The website is pushed to the gh-pages branch of repository and that branch is set as the default branch (look at the &quot;Admin&quot; section of your site on GitHub).
 &lt;br&gt;&lt;br&gt;
-The above was not obvious to me and I found the documentation on GitHub quite confusing on this matter.</summary>
+The above was not obvious to me and I found the documentation on GitHub quite confusing on this matter.
+&lt;br&gt;&lt;br&gt;</summary>
 	</entry>
 	# 
 	<entry>
