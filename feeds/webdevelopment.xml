@@ -3,7 +3,7 @@
     <title type="text" xml:lang="en">BRACKE.DK - Webdevelopment</title>
     <link type="application/atom+xml" href="http://bracke.dk/feeds/" rel="self"/>
     <link type="text" href="http://bracke.dk" rel="alternate"/>
-    <updated>2012-11-04T20:01:15+01:00</updated>
+    <updated>2012-11-04T20:03:11+01:00</updated>
     <id>http://bracke.dk</id>
     <author>
         <name>Bent Bracke</name>
@@ -32,7 +32,7 @@ The following assumes that you have registered on GitHub and created a repositor
 
 &lt;/ul&gt;
 &lt;br&gt;
-I have pointed the DNS to the GitHub ip address and added a CNAME file to the website root, which contains a single line: &quot;bracke.dk&quot; (my domain).&lt;br&gt;&lt;br&gt;
+I have pointed my DNS to the GitHub ip address and added a CNAME file to the website root, which contains a single line: &quot;bracke.dk&quot; (my domain).&lt;br&gt;&lt;br&gt;
 The website is pushed to the gh-pages branch of repository and that branch is set as the default branch (look at the &quot;Admin&quot; section of your site on GitHub).
 &lt;br&gt;&lt;br&gt;
 The above was not obvious to me and I found the documentation on GitHub quite confusing on this matter.
