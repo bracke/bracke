@@ -3,7 +3,7 @@
     <title type="text" xml:lang="en">BRACKE.DK</title>
     <link type="application/atom+xml" href="http://bracke.dk/feeds/" rel="self"/>
     <link type="text" href="http://bracke.dk" rel="alternate"/>
-    <updated>2012-11-10T23:38:38+01:00</updated>
+    <updated>2012-11-10T23:40:34+01:00</updated>
     <id>http://bracke.dk</id>
     <author>
         <name>Bent Bracke</name>
@@ -48,9 +48,9 @@ Now you should have a working version of HoMM2! Click on &quot;Test Run&quot; in
     
     <entry>
         <title>GitHub pages</title>
-        <link href="http://bracke.dk/webdevelopment/Github-pages+copy/"/>
+        <link href="http://bracke.dk/webdevelopment/Github-pages/"/>
         <updated>2012-11-04T00:00:00+01:00</updated>
-        <id>http://bracke.dk/webdevelopment/Github-pages+copy/</id>
+        <id>http://bracke.dk/webdevelopment/Github-pages/</id>
         <summary type="html">I have for quite a while been hosting my homepage (the one you are looking at!) on my own server at home, a MacMini. I have now finally moved the site to GitHub.&lt;br&gt;
 
 
