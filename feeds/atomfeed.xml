@@ -3,7 +3,7 @@
     <title type="text" xml:lang="en">BRACKE.DK</title>
     <link type="application/atom+xml" href="http://bracke.dk/feeds/" rel="self"/>
     <link type="text" href="http://bracke.dk" rel="alternate"/>
-    <updated>2012-11-06T19:46:06+01:00</updated>
+    <updated>2012-11-10T23:29:18+01:00</updated>
     <id>http://bracke.dk</id>
     <author>
         <name>Bent Bracke</name>
@@ -11,10 +11,46 @@
     <rights>Creative Commons Attribution 3.0 License</rights>
     
     <entry>
+        <title>HoMMII on OSX Mountain Lion</title>
+        <link href="http://bracke.dk/Gaming/HoMMII+on+OSX+Mountain+Lion/"/>
+        <updated>2012-11-10T00:00:00+01:00</updated>
+        <id>http://bracke.dk/Gaming/HoMMII+on+OSX+Mountain+Lion/</id>
+        <summary type="html">One of the best computer games I have ever played is Heroes of Might and Magic 2 - yes - 2 - not version 5 or 6.
+I played it and the expansion pack &quot;Prize of Loyalty&quot; on my Acorn RISC PC for a long time. I have also tried the newer versions they somehow don't seem as good. Although HoMM3 and HoMM5 were ok.
+&lt;br&gt;&lt;br&gt;
+My main computer is now a MacBookPro and I decided to try to make HoMM2 run on that machine. Amazingly it got it going and it was surprisingly simpel. The following is a recipe for getting HoMM2 running on your OSX machine.&lt;br&gt;
+
+
+&lt;h3&gt;Prerequisites&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;The HoMM2 disc or a copy of it.&lt;br&gt;I copied the disc using DiscUtility and simply mount the ISO file every time I want to play.&lt;/li&gt;
+&lt;li&gt;Wineskin - This utility is used to create a wrapper around the HoMM2 Windows program to make it run on your Mac. You can get it &lt;a href=&quot;http://wineskin.urgesoftware.com/tiki-index.php?page=Downloads&quot; target=&quot;_blank&quot;&gt;here&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+
+&lt;h3&gt;Creating the HoMM2 wrapper&lt;/h3&gt;
+
+The following recipe will create a HoMM2 wrapper application which will run HoMM2 using the Wine Windows &quot;emulator&quot;.&lt;br&gt;
+&lt;ul&gt;
+&lt;li&gt;Run the WineSKin Winery app, You will be prompted to select an engine and a wrapper version - simply select the newest ones.&lt;/li&gt;
+&lt;li&gt;Click on &quot;Create new blank wrapper&quot;, this creates a new app in a Wineskin subfolder of your application folder.&lt;/li&gt;
+&lt;li&gt;Run the app you have just created - this opens a small window with 4 buttons.&lt;/li&gt;
+&lt;li&gt;Click on the &quot;Install software&quot; button and choose the setup.exe on the HoMM2 CD and start the install. &lt;br&gt;The install will work like it would on a PC&lt;/li&gt;
+&lt;li&gt;Now click on the second button (&quot;Set Screen Options&quot;) and select &quot;Override&quot; instead of &quot;Automatic&quot; and &quot;Rootless (windowed)&quot; instead of &quot;Fullscreen&quot; and click &quot;Done&quot;.&lt;/li&gt;
+&lt;li&gt;Click the third button to get to the advanced options section. Make sure the path to the HoMM2 exe file is correct and is on your harddisc and not on the CD.&lt;/li&gt;
+&lt;li&gt;Select the tools tab and click on the &quot;Config utility&quot; button.&lt;/li&gt;
+&lt;li&gt;Select the &quot;Applications&quot; tab and set the &quot;Windows Version&quot; to &quot;Windows 98&quot; and click on &quot;OK&quot;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;br&gt;
+Now you should have a working version of HoMM2! Click on &quot;Test Run&quot; in the &quot;Advanced&quot;tab to confirm it.
+&lt;br&gt;</summary>
+    </entry>
+    
+    <entry>
         <title>GitHub pages</title>
-        <link href="http://bracke.dk/webdevelopment/Github-pages/"/>
+        <link href="http://bracke.dk/webdevelopment/Github-pages+copy/"/>
         <updated>2012-11-04T00:00:00+01:00</updated>
-        <id>http://bracke.dk/webdevelopment/Github-pages/</id>
+        <id>http://bracke.dk/webdevelopment/Github-pages+copy/</id>
         <summary type="html">I have for quite a while been hosting my homepage (the one you are looking at!) on my own server at home, a MacMini. I have now finally moved the site to GitHub.&lt;br&gt;
 
 
@@ -362,17 +398,6 @@ I liked both previous Bourne movies (&amp;#8220;The Bourne Identity&amp;#8221; a
 This movie is directed by the same director as the second Bourne movie, Paul Greengrass, and  is shot in the same style. That means the camera movements are often shaky and things are a bit blurry to make it seem as if the viewer is seeing the world through Jason Bourne&amp;#8217;s eyes. This works very well especially during action sequences, and makes them very intense, just like The Bourne Supremacy. All the action sequences are very well done especially the one in Tangier. The acting is good, especially from Matt Damon, who is very believable as Jason Bourne.&lt;br&gt;&lt;br&gt;
 What sets this movie apart from the other two movies in the (new) Bourne series is that we finally get to know how it started. We get David Webb&amp;#8217;s motivation and his superiors motivation and we get to know the full scope of what they are prepared to do to protect their interests and &amp;#8220;do the job&amp;#8221;. This broadens the movies scope/perspective which in my opinion makes it a better movie than the two previous ones.&lt;br&gt;&lt;br&gt;
 Now, don&amp;#8217;t watch this movie expecting a big intellectual treatise on the abuse of power, it is first and foremost an action movie after all. But it&amp;#8217;s not &amp;#8220;just&amp;#8221; an action movie. I like it very much. I&amp;#8217;m probably going to watch it again in the cinema and I&amp;#8217;m going to buy the DVD.</summary>
-    </entry>
-    
-    <entry>
-        <title>My First Blog Posting</title>
-        <link href="http://bracke.dk/networking/my-first-blog-posting/"/>
-        <updated>2007-09-07T00:00:00+02:00</updated>
-        <id>http://bracke.dk/networking/my-first-blog-posting/</id>
-        <summary type="html">So this is it, I have a blog! This is the first post to my blog, well actually the first was a test posting but that doesn&amp;#8217;t count!&lt;br&gt;&lt;br&gt;
-I chose to have a blog because I wanted to try something different than I usually do. I&amp;#8217;m a web developer, I usually create the infra structure / code of websites, not the content. With this blog Google delivers the infrastructure and I deliver the content (are you bored yet?) .&lt;br&gt;&lt;br&gt;
-Anyway, I figure I&amp;#8217;m going to talk about what interests me, which is the web in general and web development in particular, but also about music, books and most importantly the movies and TV series I watch. It will  likely not interest anyone, but maybe my written English will improve and perhaps I will have had some fun, ranting about random things on my mind.
-</summary>
     </entry>
     
 </feed>
