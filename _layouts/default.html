@@ -59,7 +59,7 @@
 {{ content }}
 
 {% include footer.html %}
-{% include livereload.html %}
+
 <script src="/bower_components/fastclick/lib/fastclick.js"></script>
 <!--[if lt IE 9]><script src="bower_components/REM-unit-polyfill/js/rem.min.js"></script><![endif] -->
 <!--[if lt IE 10]><script src="bower_components/aight/aight.min.js"></script><![endif]-->
@@ -74,7 +74,6 @@ document.documentElement.className +=
 (("ontouchstart" in document.documentElement) ? ' touch' : ' no-touch');
 </script>
 <!-- Frame-Breaker
-	 http://webmastercoffee.com/blog/was-sind-frame-breaker#more-288
--->
+	 http://webmastercoffee.com/blog/was-sind-frame-breaker#more-288 -->
 <script>if (top!=self) { top.location=self.location;}</script>
 </body></html>
