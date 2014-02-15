@@ -1,0 +1,10 @@
+name: Bracke
+markdown: redcarpet
+pygments: true
+excerpt_separator: "<!--more-->"
+pygments: true
+permalink: none
+description: "Thoughts about technology, blogging, coding and the web with focus on modern web technologies like CSS3 and HTML5"
+keywords: "Technology,Gadget,Coding,Web,HTML,CSS,JavaScript,.NET,monotouch"
+main_title: "BRACKE.DK"
+base-url: "http://bracke.dk/"

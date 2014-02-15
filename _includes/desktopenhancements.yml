@@ -1,0 +1,30 @@
+BlackHole:
+ name: BlackHole
+ filename: blkhole2.zip
+ version: 2.0
+ description: This application by Mark Greenwood consists of lots of smaller applications - The BlackHole dustbin, HideIbar, FileFind, Timeless, BlackOut, ToolBar, Germs. It is not going to be developed any further, but some applications which are part of it will be developed further and can be downloaded as seperate applications from these pages.
+FatHelp:
+ name: FatHelp
+ filename: fathelp199.zip
+ version: 1.99
+ description: A help file viewing system by Mark Greenwood which allows the user to select the difficulty level and supports outline fonts and displays sprites.
+HideIBar:
+ name: HideIBar
+ filename: hideibar-103.zip
+ version: 1.03
+ description: Module which brings the Iconbar to the front and back again, when apropriate. Versions prior to v1.01 were developed by Mark Greenwood.
+MakeADir:
+ name: MakeADir
+ filename: makedir-107.zip
+ version: 1.07
+ description: MakeDir makes handling archives easier. It creates a directory based on the filename of the archive, adapts the name to RISC OS name-standards and opens the directory.
+MakeLink:
+ name: MakeLink
+ filename: makelink-104.zip
+ version: 1.04
+ description: MakeLink creates an 'empty' application which points to another application (the target) of your choice. Double clicking on the new application will run the target application, selecting 'Help' in the filer menu will open the help of the target application. That way you can access the target application from several places on the harddisc. The empty link application takes very little space and does not need to be updated when the target application is updated (e.g. a new version).
+ToolBar:
+ name: ToolBar
+ filename: toolbar-102.zip
+ version: 1.02
+ description: Application, which creates a toolbar for other applications. Versions prior to v1.01 were developed by Mark Greenwood and part of the BlackHole application.

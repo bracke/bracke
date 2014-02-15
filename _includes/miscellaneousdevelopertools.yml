@@ -1,0 +1,15 @@
+Drone:
+ name: Drone
+ filename: drone-112.zip
+ version: 1.12
+ description: Drone releaves the programmer of the monotonous work related with creating a new application as it creates all necessary files automaticallly. Which files are created and the contents of those files can be changed.
+Ext2Dir:
+ name: Ext2Dir
+ filename: ext2dir-109.zip
+ version: 1.09
+ description: This program maps extensions to directories. It creates directories, removes extensions, sets filetypes, sets access attributes and enforces RISC OS naming conventions.
+TBKeyList:
+ name: TBKeyList
+ filename: tbkeylist-102.zip
+ version: 1.02
+ description: TBKeyList creates a list of the keyboard shortcuts defined in a toolbox resource file (fae). It also adds information about the window containing the shortcut, which object is shown and what event is raised when the shortcut is used. The layout of the created list is defined in templates and can be changed easily.

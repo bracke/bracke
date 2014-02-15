@@ -1,0 +1,41 @@
+AdaRM:
+ name: Ada Reference Manual
+ filename: adar111.zip
+ version: 1.11
+ description: The Ada 95 Reference Manual converted to StrongHelp format.
+Ada2Str:
+ name: Ada2Str
+ filename: ada2str-203.zip
+ version: 2.03
+ description: This tool creates StrongHelp documentation for Ada programs based on their specifications. It is a commandline tool with a desktop frontend based on the DDE module. The program uses the AdaDoc 'engine' to parse Ada specification.
+AdaDoc:
+ name: AdaDoc
+ filename: adadoc-202.zip
+ version: 2.02
+ description: This program creates documentation for Ada source code in HTML format using stylesheets. It is a commandline tool with a desktop frontend based on the DDE FrontEnd module. The commandline tool is a port of 'AdaDoc' by Julien Burdy and Vincent Decorges.
+AdaFormat:
+ name: AdaFormat
+ filename: adaformat-104.zip
+ version: 1.04
+ description: Syntax colours and reformats Ada source code. Output is text or RTF. It is a commandline tool with a desktop frontend based on the DDE FrontEnd module. The commandline tool is a port of 'format' by Martin C. Carlisle, Rob French, Tim Chamillard, James Hopper and Michael B. Feldman.
+FileChop:
+ name: FileChop
+ filename: filechop-103.zip
+ version: 1.03
+ description: This is a desktop frontend for GNATchop (separates Ada compilation units) and is based on the DDE Frontend module. The commandline tool GNATchop is not supplied.
+NameMap:
+ name: NameMap
+ filename: namemap-105.zip
+ version: 1.05
+ description: Tool which creates a file containing Source_File_Name pragmas for every sourcefile with a long name (> 10 charcters). It is a commandline tool with a desktop frontend based on the DDE module.
+Pager:
+ name: Pager
+ filename: pager-104.zip
+ version: 1.04
+ description: This program combines files into a paged file. It can also extract files from a paged file. It is a commandline tool with a desktop frontend based on the DDE FrontEnd module. The commandline tool is a port of Pager2 by Richard Conn.
+Stubber:
+ name: Stubber
+ filename: stubber-105.zip
+ version: 1.05
+ description: This program creates Ada body stubs based on Ada specifications. It is a commandline tool with a desktop frontend based on the DDE FrontEnd module. The commandline tool is a port of 'Stubber' by Steven E. Nameroff.
+

@@ -1,0 +1,25 @@
+BlackOut:
+ name: BlackOut
+ filename: blackout-202.zip
+ version: 2.02
+ description: This is a screensaver frontend with lots of different savers and a random mode. RISC OS 4 and later has its own Screensaver system.
+FatPaint:
+ name: FatPaint
+ filename: fatpaint002a.zip
+ version: 0.02a
+ description: A pixel oriented drawing program by Mark Greenwood.
+Germs:
+ name: Germs
+ filename: germs-304.zip
+ version: 3.04
+ description: Module which replaces the startup banner with a picture (Sprite, JPEG, Draw) of your choice. Versions prior to v3.00 were developed by Mark Greenwood and part of the BlackHole application.
+InsertIcon:
+ name: InsertIcon
+ filename: inserticn-105.zip
+ version: 1.05
+ description: Inserts sprites into the standard sprite pool, RISC OS Select priority sprite pool or replaces toolsprites.
+SpriteLib:
+ name: SpriteLib
+ filename: spritelib-214.zip
+ version: 2.14
+ description: Application which moves sprites with the same name into a single sprite file to make it easy to compare them.

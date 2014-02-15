@@ -1,3 +1,5 @@
+---
+---
 /* the humans responsible & colophon */
 /* humanstxt.org */
 
@@ -7,21 +9,17 @@
 	Contact: bent [at] bracke.dk
 	Twitter: @bentbracke
 	From: Ikast, Denmark
-	  
+
 /* THANKS */
 
 	Jekyll/Github team
-	
-	Dave Perrett for his Jekyll category generator plugin
-	
-	The HTML5Boilerplate team
 
 
 /* SITE */
-  	Last update:  2012-11-10 
+  	Last update: {% for post in site.posts limit: 1 %} {{ post.date | date: "%Y-%m-%d" }} {% endfor %}
 	Language: English
 	Doctype: HTML5
 	Standards: HTML5, CSS3
-	Software: Jekyll,HTML5Boilerplate,Chocolate,Bash
-  	
-	
+	Software: Jekyll,Chocolate,Bash
+
+

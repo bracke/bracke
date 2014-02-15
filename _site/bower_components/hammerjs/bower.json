@@ -1,0 +1,23 @@
+{
+  "name": "hammerjs",
+  "version": "1.0.6",
+  "main": [
+    "hammer.js"
+  ],
+  "ignore": [
+    "tests",
+    "component.json",
+    "package.json",
+    "examples",
+    "src"
+  ],
+  "gitHead": "d7b1080fe3232fdd327eafa2632855474ce2ccbe",
+  "readme": "# Hammer.js \n[![Build Status](https://travis-ci.org/EightMedia/hammer.js.png)](https://travis-ci.org/EightMedia/hammer.js/)\n[![Selenium Test Status](https://saucelabs.com/buildstatus/hammerjs-ci)](https://saucelabs.com/u/hammerjs-ci)\n\n### A javascript library for multi-touch gestures\n\n> I told you, homeboy /\n> You *CAN* touch this /\n> Yeah, that's how we living and you know /\n> You *CAN* touch this\n\n[__Looking for the jQuery plugin? It has his own repository now.__](https://github.com/EightMedia/jquery.hammer.js)\n\n## Features\n- Detects Tap, DoubleTap, Swipe, Drag, Pinch, and Rotate gestures\n- DOM Events\n- Debug plugins\n- Custom gestures\n- Chainable instance methods\n- AMD support (RequireJS)\n- Unit tests\n- Option to disable mouse support, so only for touch and pen input.\n- Sourcemaps\n- [jQuery plugin available](https://github.com/EightMedia/jquery.hammer.js)\n\n## Getting Started\nSee the [Wiki on GitHub](https://github.com/EightMedia/hammer.js/wiki) for documentation.\n\n\n## Contributing\nIn lieu of a formal styleguide, take care to maintain the existing coding style.\nAdd unit tests for any new or changed functionality. Lint and test your code using grunt.\nPlease don't commit the dist versions with your changes, only the changed source files.\n\n\n## Further notes\nCreated by [Jorik Tangelder](http://twitter.com/jorikdelaporik) and developed at [Eight Media](http://www.eight.nl/) in Arnhem, the Netherlands.\n\nIt's recommend to listen to [this loop](http://soundcloud.com/eightmedia/hammerhammerhammer) while using hammer.js.\n",
+  "readmeFilename": "README.md",
+  "_id": "hammerjs@1.0.6",
+  "description": "[![Build Status](https://travis-ci.org/EightMedia/hammer.js.png)](https://travis-ci.org/EightMedia/hammer.js/) [![Selenium Test Status](https://saucelabs.com/buildstatus/hammerjs-ci)](https://saucelabs.com/u/hammerjs-ci)",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/EightMedia/hammer.js.git"
+  }
+}

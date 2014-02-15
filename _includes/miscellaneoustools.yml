@@ -1,0 +1,36 @@
+BCache:
+ name: BCache
+ filename: bcache-202.zip
+ version: 2.02
+ description: Application which lets you change the state of the cache.
+Lender:
+ name: Lender
+ filename: lender-206.zip
+ version: 2.06
+ description: This program keeps track of the things people borrow from you. Versions prior to v2.00 were developed by Ian Molton.
+Meaning:
+ name: Meaning
+ filename: meaning-106.zip
+ version: 1.06
+ description: Meaning finds the meaning of acronyms and displays it in a textarea. You can select the text and drag the selection to other windows or copy it to the clipboard. New acronyms can be added. The data files supplied with Meaning are - Acronyms, Perry Rhodan, Smilies, US-Army, US-Gov, Tom Clancy, David Weber.
+RiscMovie:
+ name: RiscMovie
+ filename: riscmovie-100.zip
+ version: 1.00
+ description: RiscMovie keeps track of your movie collection. For each movie you can set the genre, mediatype, audio tracks and subtitles. Each movie can have up to 3 titles (e.g. original and English). Multiple lists can be open at the same time and lists can be sorted and searched.
+SEDModeEd:
+ name: SEDModeEd
+ filename: sedmodeed.zip
+ version: 1.17
+ description: SEDModeEd is an editor for StrongED modes. A mode governs how StrongED looks and behaves through a series of keywords. Normally such a modefile is edited using StrongED to change those keywords. Editing modes with SEDModeEd is different in that it uses a graphical user interface (GUI) and the user does not need to know any keywords. You can read more about it and get sourcecode access on the Sourceforge project page.
+Text2HTML:
+ name: Text2HTML
+ filename: text2html-106.zip
+ version: 1.06
+ description: A program which converts text to HTML. It is a commandline tool with a desktop frontend based on the DDE module.
+Timeless:
+ name: Timeless
+ filename: timeless-102.zip
+ version: 1.02
+ description: Module which displays a clock on the iconbar. Versions prior to v0.04 were developed by Mark Greenwood.
+

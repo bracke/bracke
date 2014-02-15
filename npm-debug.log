@@ -1,0 +1,57 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'update', '-g', 'bower' ]
+2 info using npm@1.3.2
+3 info using node@v0.10.13
+4 verbose cache add [ 'bower', '*' ]
+5 verbose cache add name="bower" spec="*" args=["bower","*"]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: '*',
+6 verbose parsed url   path: '*',
+6 verbose parsed url   href: '*' }
+7 verbose addNamed [ 'bower', '*' ]
+8 verbose addNamed [ null, '*' ]
+9 silly lockFile b788227f-bower bower@*
+10 verbose lock bower@* /Users/bent/.npm/b788227f-bower.lock
+11 silly addNameRange { name: 'bower', range: '*', hasData: false }
+12 verbose cache add [ 'bower', '~0.3.0' ]
+13 verbose cache add name="bower" spec="~0.3.0" args=["bower","~0.3.0"]
+14 verbose parsed url { protocol: null,
+14 verbose parsed url   slashes: null,
+14 verbose parsed url   auth: null,
+14 verbose parsed url   host: null,
+14 verbose parsed url   port: null,
+14 verbose parsed url   hostname: null,
+14 verbose parsed url   hash: null,
+14 verbose parsed url   search: null,
+14 verbose parsed url   query: null,
+14 verbose parsed url   pathname: '~0.3.0',
+14 verbose parsed url   path: '~0.3.0',
+14 verbose parsed url   href: '~0.3.0' }
+15 verbose addNamed [ 'bower', '~0.3.0' ]
+16 verbose addNamed [ null, '>=0.3.0-0 <0.4.0-0' ]
+17 silly lockFile 3741dbef-bower-0-3-0 bower@~0.3.0
+18 verbose lock bower@~0.3.0 /Users/bent/.npm/3741dbef-bower-0-3-0.lock
+19 silly addNameRange { name: 'bower', range: '>=0.3.0-0 <0.4.0-0', hasData: false }
+20 info outdated updating []
+21 error Error: EMFILE, open '/usr/local/lib/node_modules/yo/node_modules/yeoman-generator/node_modules/mime/package.json'
+22 error If you need help, you may report this log at:
+22 error     <http://github.com/isaacs/npm/issues>
+22 error or email it to:
+22 error     <npm-@googlegroups.com>
+23 error System Darwin 13.0.0
+24 error command "node" "/usr/local/bin/npm" "update" "-g" "bower"
+25 error cwd /Users/bent/Documents/Projects/brackedk
+26 error node -v v0.10.13
+27 error npm -v 1.3.2
+28 error path /usr/local/lib/node_modules/yo/node_modules/yeoman-generator/node_modules/mime/package.json
+29 error code EMFILE
+30 error errno 20
+31 verbose exit [ 20, true ]
