@@ -1,0 +1,59 @@
+---
+---
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/xsl" href="http://bracke.dk/sitemap.xsl"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9	            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+  <url>
+    <loc>http://bracke.dk/</loc>
+    <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+<url>
+  <loc>http://bracke.dk/apps</loc>
+  <lastmod>2014-02-18T20:27:11+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://bracke.dk/ada-developer-tools</loc>
+  <lastmod>2014-02-18T20:27:11+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://bracke.dk/desktop-enhancements</loc>
+  <lastmod>2014-02-18T20:27:11+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://bracke.dk/graphics-tools</loc>
+  <lastmod>2014-02-18T20:27:11+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://bracke.dk/miscellaneous</loc>
+  <lastmod>2014-02-18T20:27:11+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://bracke.dk/miscellaneous-developer-tools</loc>
+  <lastmod>2014-02-18T20:27:11+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+  {% for post in site.posts %}
+  <url>
+    <loc>http://bracke.dk{{ post.url }}</loc>
+    <lastmod>{{ post.date | date_to_xmlschema }}</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  {% endfor %}
+</urlset>
