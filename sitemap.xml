@@ -50,7 +50,7 @@
 </url>
   {% for post in site.posts %}
   <url>
-    <loc>http://bracke.dk{{ post.url }}</loc>
+    <loc>http://bracke.dk{{ post.url  | replace:'.html',''}}</loc>
     <lastmod>{{ post.date | date_to_xmlschema }}</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
