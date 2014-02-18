@@ -19,7 +19,7 @@ title: Page not found Error (#404)
 	    <h3>Last blog posts</h3>
 		<ul>
 		   {% for post in site.posts limit: 10 %}
-		   	  <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+		   	  <li><a href="{{ post.url   | replace:'.html','' }}">{{ post.title }}</a></li>
 		  {% endfor %}
 		</ul>
 	  </p>
