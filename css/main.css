@@ -141,6 +141,9 @@ body {
   padding: 0;
   display: flex;
   display: -webkit-flex;
+  display: -moz-flex;
+  display: -o-flex;
+  display: -ms-flex;
   flex-direction: column;
   flex-wrap: wrap;
   -webkit-flex-wrap: wrap;
