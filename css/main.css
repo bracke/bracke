@@ -144,7 +144,7 @@ body {
   display: -moz-flex;
   display: -o-flex;
   display: -ms-flex;
-  flex-direction: column;
+  flex-direction: row;
   flex-wrap: wrap;
   -webkit-flex-wrap: wrap;
   -o-flex-wrap: wrap;
