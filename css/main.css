@@ -241,6 +241,9 @@ nav {
   padding-right: 10px;
   display: flex;
   display: -webkit-flex;
+  display: -moz-flex;
+  display: -o-flex;
+  display: -ms-flex;
   align-items: center;
   -webkit-align-items: center;
   -o-align-items: center;
