@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/xsl" href="http://bracke.dk/sitemap.xsl"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9	            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+  <url>
+    <loc>http://bracke.dk/</loc>
+    <lastmod>2015-02-23T20:07:09+01:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+<url>
+  <loc>http://bracke.dk/apps</loc>
+  <lastmod>2014-02-18T20:27:11+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://bracke.dk/ada-developer-tools</loc>
+  <lastmod>2014-02-18T20:27:11+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://bracke.dk/desktop-enhancements</loc>
+  <lastmod>2014-02-18T20:27:11+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://bracke.dk/graphics-tools</loc>
+  <lastmod>2014-02-18T20:27:11+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://bracke.dk/miscellaneous</loc>
+  <lastmod>2014-02-18T20:27:11+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://bracke.dk/miscellaneous-developer-tools</loc>
+  <lastmod>2014-02-18T20:27:11+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+  
+  <url>
+    <loc>http://bracke.dk/gaming/HoMMII-on-OSX-Mountain-Lion</loc>
+    <lastmod>2012-11-10T00:00:00+01:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://bracke.dk/webdevelopment/Github-pages</loc>
+    <lastmod>2012-11-04T00:00:00+01:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://bracke.dk/webdevelopment/node-resources</loc>
+    <lastmod>2012-08-10T00:00:00+02:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://bracke.dk/webdevelopment/note-to-self-apache-mac</loc>
+    <lastmod>2012-07-28T00:00:00+02:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://bracke.dk/webdevelopment/Fix-for-old-browsers</loc>
+    <lastmod>2012-03-03T00:00:00+01:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://bracke.dk/webdevelopment/portable-coding</loc>
+    <lastmod>2010-05-01T00:00:00+02:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://bracke.dk/webdevelopment/typography</loc>
+    <lastmod>2010-04-18T00:00:00+02:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://bracke.dk/webdevelopment/image-shadows</loc>
+    <lastmod>2010-04-18T00:00:00+02:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://bracke.dk/fun/walking-the-google-way</loc>
+    <lastmod>2010-04-15T00:00:00+02:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://bracke.dk/webdevelopment/dns-redirect</loc>
+    <lastmod>2010-04-05T00:00:00+02:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://bracke.dk/gaming/command-conquer-4-vs-macmini-and-paralells</loc>
+    <lastmod>2010-04-05T00:00:00+02:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://bracke.dk/webdevelopment/site-revamp</loc>
+    <lastmod>2010-04-04T00:00:00+02:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://bracke.dk/networking/profiles</loc>
+    <lastmod>2010-04-04T00:00:00+02:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://bracke.dk/fun/gaming/homm-5-easteregg</loc>
+    <lastmod>2010-04-04T00:00:00+02:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://bracke.dk/ios/squarespace-iphone-app</loc>
+    <lastmod>2009-11-06T00:00:00+01:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://bracke.dk/riscos/risc-os-software</loc>
+    <lastmod>2009-08-16T00:00:00+02:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://bracke.dk/ios/iphone-development-mono-touch</loc>
+    <lastmod>2009-08-16T00:00:00+02:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://bracke.dk/webdevelopment/moved-to-squarespace</loc>
+    <lastmod>2009-08-08T00:00:00+02:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://bracke.dk/ios/blogging-with-my-iphone</loc>
+    <lastmod>2009-08-08T00:00:00+02:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://bracke.dk/miscellaneous/the-bourne-ultimatum</loc>
+    <lastmod>2007-09-08T00:00:00+02:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>http://bracke.dk/networking/my-first-blog-posting</loc>
+    <lastmod>2007-09-07T00:00:00+02:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+</urlset>
