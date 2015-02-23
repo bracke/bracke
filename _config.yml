@@ -4,6 +4,9 @@ pygments: true
 excerpt_separator: "<!--more-->"
 pygments: true
 permalink: none
+sass:
+  sass_dir: _sass
+  style: compressed
 description: "Thoughts about technology, blogging, coding and the web with focus on modern web technologies like CSS3 and HTML5"
 keywords: "Technology,Gadget,Coding,Web,HTML,CSS,JavaScript,.NET,monotouch"
 main_title: "BRACKE.DK"
