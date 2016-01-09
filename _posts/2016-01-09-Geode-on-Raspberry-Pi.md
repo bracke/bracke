@@ -1,3 +1,5 @@
+layout: post
+-
 # Genode on Raspberry Pi
 The following is a recipe for installing Genode on the Raspberry Pi.
 It is mostly based on http://genode.org/documentation/release-notes/13.11#Raspberry_Pi
