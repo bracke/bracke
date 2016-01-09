@@ -70,10 +70,11 @@ The ELF file needs to be converted into a IMG file, since the Raspberry Pi canâ€
 </p>
 
 <pre>/usr/local/genode-gcc/bin/genode-arm-objcopy -Obinary var/run/demo/image.elf genode.img</pre>
+<br>
 <p>
 Copy the resulting `genode.img` to the SD card root.<br>
 Add the following lines to the `config.txt` file in the the SD card root:
-</p><br>
+</p>
 <pre>
 
 	kernel=genode.img
