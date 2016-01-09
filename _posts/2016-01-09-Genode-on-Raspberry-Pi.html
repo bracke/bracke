@@ -16,8 +16,10 @@ Follow the <a href='https://www.raspberrypi.org/documentation/installation/insta
 Genode needs the Genode toolchain:
 
 <ul>
-	<li>Download http://sourceforge.net/projects/genode/files/genode-toolchain/15.05/genode-toolchain-15.05-x86_64.tar.bz2/download</li>
-	<li>Install the toolchain by running <code>sudo tar xPfj genode-toolchain-15.05-x86_64.tar.bz2</code></li>
+	<li>Download the <a href='http://sourceforge.net/projects/genode/files/genode-toolchain/15.05/genode-toolchain-15.05-x86_64.tar.bz2/download'>Genode toolchain</a></li>
+	<li>Install the toolchain by running:<br>
+		<pre>sudo tar xPfj genode-toolchain-15.05-x86_64.tar.bz2</pre>
+	</li>
 </ul>
 <h3>Fetch Genode and dependencies</h3>
 Run the following script to fetch Genode and various dependencies.<br>
@@ -66,14 +68,17 @@ The result is a <code>genode.elf</code> file.
 <p>
 The ELF file needs to be converted into a IMG file, since the Raspberry Pi can’t handle ELF files:
 </p>
-	<code>/usr/local/genode-gcc/bin/genode-arm-objcopy -Obinary var/run/demo/image.elf genode.img</code>
+
+<pre>/usr/local/genode-gcc/bin/genode-arm-objcopy -Obinary var/run/demo/image.elf genode.img</pre>
 <p>
 Copy the resulting `genode.img` to the SD card root.<br>
 Add the following lines to the `config.txt` file in the the SD card root:
-</p>
+</p><br>
 <pre>
+
 	kernel=genode.img
 	kernel_address=0x00800000
+
 </pre>
 <p>
 With that, the Raspberry Pi should boot into Genode and open the demo app.
