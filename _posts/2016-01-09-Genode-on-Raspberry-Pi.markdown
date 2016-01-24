@@ -24,8 +24,8 @@ Genode needs the Genode toolchain:
 ### Fetch Genode and dependencies
 Run the following script to fetch Genode and various dependencies.<br>
 The script will also create a build directory for a Genode build with Fiasco.OC for Raspberry Pi.
-<p>
-<pre>
+
+```bash
 	# Genode
 	git clone git://github.com/genodelabs/genode.git
 
@@ -56,7 +56,7 @@ The script will also create a build directory for a Genode build with Fiasco.OC 
 	# Create build dir
 	../tool/create_builddir foc_rpi
 
-</pre>
+```
 
 ### Change build configuration
 The build is configured using the <code>build.conf</code> file in <code>build/etc/</code>. <br>
