@@ -9,7 +9,7 @@ It is mostly based on the <a href='http://genode.org/documentation/release-notes
 <br>
 It has only been tested on Linux (Ubuntu).
 
-<h3>Prerequisites</h3>
+### Prerequisites
 You need a SD card with a Raspberry Pi installation.<br>
 Follow the <a href='https://www.raspberrypi.org/documentation/installation/installing-images/README.md'>guide</a> on raspberrypi.org.
 <p>
@@ -21,7 +21,7 @@ Genode needs the Genode toolchain:
 		<pre>sudo tar xPfj genode-toolchain-15.05-x86_64.tar.bz2</pre>
 	</li>
 </ul>
-<h3>Fetch Genode and dependencies</h3>
+### Fetch Genode and dependencies
 Run the following script to fetch Genode and various dependencies.<br>
 The script will also create a build directory for a Genode build with Fiasco.OC for Raspberry Pi.
 <p>
@@ -58,11 +58,11 @@ The script will also create a build directory for a Genode build with Fiasco.OC 
 
 </pre>
 
-<h3>Change build configuration</h3>
+### Change build configuration
 The build is configured using the <code>build.conf</code> file in <code>build/etc/</code>. <br>
 You should at the very least add the <code>dde_linux</code> repository by uncommenting that line.
 
-<h3>Build Genode ELF</h3>
+### Build Genode ELF
 Run <code>make run/demo</code> from the <code>build/foc_rpi</code> folder to build  Genode.<br>
 The result is a <code>genode.elf</code> file.
 <p>
