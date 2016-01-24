@@ -4,26 +4,29 @@ title: Genode on Raspberry Pi
 categories: Genode, RaspberryPi
 ---
 This is a recipe for installing Genode on the Raspberry Pi.
-[](<!--more-->)
+<!-- more-->
+
 It is mostly based on the <a href='http://genode.org/documentation/release-notes/13.11#Raspberry_Pi'>release notes</a> on Genode.org.
-<br>
+
+
 It has only been tested on Linux (Ubuntu).
 
 ### Prerequisites
 You need a SD card with a Raspberry Pi installation.<br>
 Follow the <a href='https://www.raspberrypi.org/documentation/installation/installing-images/README.md'>guide</a> on raspberrypi.org.
-<p>
+
+
 Genode needs the Genode toolchain:
 
-<ul>
-	<li>Download the <a href='http://sourceforge.net/projects/genode/files/genode-toolchain/15.05/genode-toolchain-15.05-x86_64.tar.bz2/download'>Genode toolchain</a></li>
-	<li>Install the toolchain by running:<br>
-		<pre>sudo tar xPfj genode-toolchain-15.05-x86_64.tar.bz2</pre>
-	</li>
-</ul>
+- Download the <a href='http://sourceforge.net/projects/genode/files/genode-toolchain/15.05/genode-toolchain-15.05-x86_64.tar.bz2/download'>Genode toolchain</a>
+- Install the toolchain by running:
+
+	```sudo tar xPfj genode-toolchain-15.05-x86_64.tar.bz2``
+
 ### Fetch Genode and dependencies
 Run the following script to fetch Genode and various dependencies.<br>
 The script will also create a build directory for a Genode build with Fiasco.OC for Raspberry Pi.
+
 
 ```bash
 	# Genode
@@ -59,28 +62,29 @@ The script will also create a build directory for a Genode build with Fiasco.OC 
 ```
 
 ### Change build configuration
-The build is configured using the <code>build.conf</code> file in <code>build/etc/</code>. <br>
-You should at the very least add the <code>dde_linux</code> repository by uncommenting that line.
+The build is configured using the `build.conf` file in `build/etc/.
+
+You should at the very least add the `dde_linux repository by uncommenting that line.
 
 ### Build Genode ELF
-Run <code>make run/demo</code> from the <code>build/foc_rpi</code> folder to build  Genode.<br>
-The result is a <code>genode.elf</code> file.
-<p>
+Run make run/demo` from the `build/foc_rpi` folder to build  Genode.
+
+The result is a `genode.elf file.
+
+
 The ELF file needs to be converted into a IMG file, since the Raspberry Pi can’t handle ELF files:
-</p>
 
-<pre>/usr/local/genode-gcc/bin/genode-arm-objcopy -Obinary var/run/demo/image.elf genode.img</pre>
-<br>
-<p>
-Copy the resulting `genode.img` to the SD card root.<br>
+
+```bash /usr/local/genode-gcc/bin/genode-arm-objcopy -Obinary var/run/demo/image.elf genode.img ```
+
+
+Copy the resulting `genode.img` to the SD card root.
 Add the following lines to the `config.txt` file in the the SD card root:
-</p>
-<pre>
 
+```
 	kernel=genode.img
 	kernel_address=0x00800000
+```
 
-</pre>
-<p>
+
 With that, the Raspberry Pi should boot into Genode and open the demo app.
-</p>
