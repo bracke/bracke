@@ -21,8 +21,9 @@ Genode needs the Genode toolchain:
 - Download the <a href='http://sourceforge.net/projects/genode/files/genode-toolchain/15.05/genode-toolchain-15.05-x86_64.tar.bz2/download'>Genode toolchain</a>
 - Install the toolchain by running:
 
+
 ```bash
-sudo tar xPfj genode-toolchain-15.05-x86_64.tar.bz2
+	sudo tar xPfj genode-toolchain-15.05-x86_64.tar.bz2
 ```
 
 ### Fetch Genode and dependencies
@@ -65,9 +66,9 @@ The script will also create a build directory for a Genode build with Fiasco.OC 
 
 
 ### Change build configuration
-The build is configured using the `build.conf` file in `build/etc/.
+The build is configured using the `build.conf` file in `build/etc/`.
 
-You should at the very least add the `dde_linux repository by uncommenting that line.`
+You should at the very least add the `dde_linux` repository by uncommenting that line.
 
 ### Build Genode ELF
 Run `make run/demo` from the `build/foc_rpi` folder to build  Genode.
