@@ -21,7 +21,9 @@ Genode needs the Genode toolchain:
 - Download the <a href='http://sourceforge.net/projects/genode/files/genode-toolchain/15.05/genode-toolchain-15.05-x86_64.tar.bz2/download'>Genode toolchain</a>
 - Install the toolchain by running:
 
-	```sudo tar xPfj genode-toolchain-15.05-x86_64.tar.bz2```
+```bash
+   sudo tar xPfj genode-toolchain-15.05-x86_64.tar.bz2
+```
 
 ### Fetch Genode and dependencies
 Run the following script to fetch Genode and various dependencies.<br>
@@ -76,13 +78,15 @@ The result is a `genode.elf file.
 The ELF file needs to be converted into a IMG file, since the Raspberry Pi can’t handle ELF files:
 
 
-``` /usr/local/genode-gcc/bin/genode-arm-objcopy -Obinary var/run/demo/image.elf genode.img ```
+```bash
+/usr/local/genode-gcc/bin/genode-arm-objcopy -Obinary var/run/demo/image.elf genode.img
+```
 
 
 Copy the resulting `genode.img` to the SD card root.
 Add the following lines to the `config.txt` file in the the SD card root:
 
-```
+```bash
 	kernel=genode.img
 	kernel_address=0x00800000
 ```
