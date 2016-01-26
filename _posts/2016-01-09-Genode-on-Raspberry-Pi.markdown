@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Genode on Raspberry Pi
-categories: Genode, RaspberryPi
+categories: Genode RaspberryPi
 ---
 This is a recipe for installing Genode on the Raspberry Pi.
 <!-- more-->
@@ -70,9 +70,9 @@ The build is configured using the `build.conf` file in `build/etc/.
 You should at the very least add the `dde_linux repository by uncommenting that line.`
 
 ### Build Genode ELF
-Run make run/demo` from the `build/foc_rpi` folder to build  Genode.
+Run `make run/demo` from the `build/foc_rpi` folder to build  Genode.
 
-The result is a `genode.elf file.
+The result is a `genode.elf` file.
 
 
 The ELF file needs to be converted into a IMG file, since the Raspberry Pi canâ€™t handle ELF files:
@@ -85,6 +85,7 @@ The ELF file needs to be converted into a IMG file, since the Raspberry Pi canâ€
 
 Copy the resulting `genode.img` to the SD card root.
 Add the following lines to the `config.txt` file in the the SD card root:
+
 
 ```bash
 	kernel=genode.img
