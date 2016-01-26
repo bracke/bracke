@@ -22,7 +22,7 @@ Genode needs the Genode toolchain:
 - Install the toolchain by running:
 
 ```bash
-   sudo tar xPfj genode-toolchain-15.05-x86_64.tar.bz2
+sudo tar xPfj genode-toolchain-15.05-x86_64.tar.bz2
 ```
 
 ### Fetch Genode and dependencies
