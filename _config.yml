@@ -1,7 +1,7 @@
 name: Bracke
 markdown: redcarpet
 pygments: true
-excerpt_separator: "<!--more-->"
+excerpt_separator: "[//]: #"
 pygments: true
 permalink: none
 sass:

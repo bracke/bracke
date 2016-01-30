@@ -4,7 +4,7 @@ title: Genode on Raspberry Pi
 categories: Genode RaspberryPi
 ---
 This is a recipe for installing Genode on the Raspberry Pi.
-<!-- more-->
+[//]: #
 
 It is mostly based on the <a href='http://genode.org/documentation/release-notes/13.11#Raspberry_Pi'>release notes</a> on Genode.org.
 
