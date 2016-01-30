@@ -87,12 +87,12 @@ Copy the resulting `genode.img` to the SD card root.
 Add the following lines to the `config.txt` file in the the SD card root:
 
 
-
+  
 ```bash
 	kernel=genode.img
 	kernel_address=0x00800000
 ```
-
+  
 
 
 With that, the Raspberry Pi should boot into Genode and open the demo app.
