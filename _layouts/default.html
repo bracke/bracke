@@ -46,9 +46,7 @@ layout: compress
 <link rel="alternate" type="application/x.atom+xml" title="BRACKE - {{ category | first }}" href="/feeds/{{ category | first }}.xml" />
 {% endfor %}
 
-
 <link rel="icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAQAAAC1+jfqAAAAAmJLR0QA/4ePzL8AAAAJcEhZcwAACxMAAAsTAQCanBgAAAGkSURBVCgVBcFNSNNxAMbx7/P74wtYI5oR3upQ6mFKB6WQKBBCOlmSVhoUgQQeoiKUUVBIMEgSisygQ0hJ0tuhF5CWRDcLKerQJIwCKajG0NVB2/5Pn48MSGArIiBKjhWoBkpeVZCRbAXMOg6xmxoWWOEROf56VRKyFSH6k5lTa1NUs5VPpEvvT3DfyyAERAx3Do1yma9sYoopmmn4mW9wAYSAlrbZLF2kyJCjcb6//ia7/r1OughCwMjk6W008pD93OFI/kGyi9pivtU5EAGYnOuZ5zDf47owwDzPSHPlNuOeBRGAg3vvNjPBIvCDOpbj3vD0HWmmbRFhamiju/PYY1acWNoePVmTUDszQ4y5KCKXJZL0ZUYHeevWLIXp7j1c4twNBl0UwTEoyciboy1c5eQ4G7P72rnIhWuk/UcExwqs58VSUyL0MjlGx6/NtWpn5gzXvSKCY4kNqcUPFTAA7KCPj276wnnu2UK2AjuPv7rFb/foJZCLO8rfhpnzcxCyVcUBzhKIiLfUE31eYIIcWRdAyFYFVVRSokxMRJkygUqKNvwHkAasBo90ymgAAAAASUVORK5CYII=" type="image/png" />
-
     <style type="text/css">
         {% capture include_to_scssify %}
         {% include main.scss %}
@@ -58,26 +56,17 @@ layout: compress
 </head>
 <body>
 {% include header.html %}
-
 <ul id="mainMenuList">
 	<li><a href="/apps.html">Apps</a></li>
 	<li><a href="http://about.me/bracke" target="_blank">About</a></li>
 </ul>
-
 {{ content }}
-
 {% include footer.html %}
 
 <!--[if lt IE 9]><script src="bower_components/REM-unit-polyfill/js/rem.min.js"></script><![endif] -->
 <!--[if lt IE 10]><script src="bower_components/aight/aight.min.js"></script><![endif]-->
-
-<!-- Frame-Breaker
-	 http://webmastercoffee.com/blog/was-sind-frame-breaker#more-288 -->
-<script>if (top!=self) { top.location=self.location;}</script>
-
 <script>
 var links = document.links;
-
 for (var i = 0, linksLength = links.length; i < linksLength; i++) {
    if (links[i].hostname != window.location.hostname) {
        links[i].target = '_blank';
