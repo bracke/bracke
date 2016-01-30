@@ -5,7 +5,7 @@ categories: gaming
 ---
 One of the best computer games I have ever played is Heroes of Might and Magic 2 - yes - 2 - not version 5 or 6.
 I played it and the expansion pack "Prize of Loyalty" on my Acorn RISC PC for a long time.
-<!--more-->
+[//]: #
 I have also tried newer versions but they somehow don't seem as good. Although HoMM3 and HoMM5 were ok.
 <br><br>
 My main computer is now a MacBookPro and I decided to try to make HoMM2 run on that machine. Amazingly I got it going and it was surprisingly simpel. The following is a recipe for getting HoMM2 running on your OSX machine.<br>

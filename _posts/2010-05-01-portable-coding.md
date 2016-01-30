@@ -4,7 +4,7 @@ title: Portable Coding
 categories: webdevelopment
 ---
 No, this is not about creating applications that can run on multiple platforms. Instead this is about being able to move from one computer to another and being ready to code immediately without first having to install a bunch of applications.
-<!--more-->
+[//]: #
 <p>
 <h3>Vision</h3>
 Imagine being able to move between your work PC, your computer at home and a PC at a client/customer and always having you favorite tools ready to be used. Imagine being ready to create new ASP.NET page on a new PC without first having to install IIS, Visual Studio and whatever other applications you need. That is what I tried to realise lately.</p>

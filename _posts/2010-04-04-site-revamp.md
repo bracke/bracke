@@ -4,7 +4,7 @@ title: Site Revamp
 categories: webdevelopment
 ---
 I have never really been satisfied with the look of this site. It seemed quite dull but also crowded.
-<!--more-->
+[//]: #
 <p>
 <h3>Crowded page</h3>
 The cause for the crowdedness was obvious: All those buttons on the right side of the page. They were links to various Web sites and were meant to make it easy for readers to cite content on my site. They took a lot of space, in fact they filled almost the entire column and were the prime reason for choosing a three column layout instead of a two column layout. I chose to remove them and switch to a two column layout.</p>

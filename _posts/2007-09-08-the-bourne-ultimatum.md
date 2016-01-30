@@ -3,7 +3,8 @@ layout: post
 title: The Bourne Ultimatum
 categories: miscellaneous
 ---
-Yesterday I watched the movie &#8220;The Bourne Ultimatum&#8221;. It premiered three weeks ago in Denmark, but only yesterday in the local cinema.<!--more-->
+Yesterday I watched the movie &#8220;The Bourne Ultimatum&#8221;. It premiered three weeks ago in Denmark, but only yesterday in the local cinema.
+[//]: #
 <br><br>
 I liked both previous Bourne movies (&#8220;The Bourne Identity&#8221; and &#8220;The Bourne Supremacy&#8221;) and actually also liked the old version of &#8220;The Bourne Identity&#8221; with Richard Chamberlain. I was therefore very excited about this new (final?) movie in the Bourne series.<br><br>
 

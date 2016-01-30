@@ -3,7 +3,9 @@ layout: post
 title: iPhone Development with MonoTouch
 categories: ios
 ---
-I have recently become interested in developing for the iPhone OS (iPhone, iPod Touch). The obvious way to do that is to use XCode and program in Objective C. But I would rather not do that. <!--more-->Not because I dislike the language (seems quite nice indeed) but simply because I think the time spend learning the intricacies of Objective C would be more productive, if I spend it programming in a language I already know.
+I have recently become interested in developing for the iPhone OS (iPhone, iPod Touch). The obvious way to do that is to use XCode and program in Objective C. But I would rather not do that.
+[//]: #
+Not because I dislike the language (seems quite nice indeed) but simply because I think the time spend learning the intricacies of Objective C would be more productive, if I spend it programming in a language I already know.
 That means C#, Ada or some BASIC dialect.
 
 <p>
