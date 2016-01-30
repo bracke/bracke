@@ -193,8 +193,9 @@ display: flex;
  article a:hover,
  article a:active
  {
-   text-decoration   : none;
+   text-decoration  : underline;
    color 			: #0a0a0a;
+   font-weight		: bold;
  }
  .no-touch article.index:hover
  {
