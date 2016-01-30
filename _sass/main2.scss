@@ -202,8 +202,9 @@ display: flex;
  article.index a:hover,
  article.index a:active
  {
-   
-   color 			: #0a0a0a;
+   	text-decoration  : none;
+    font-weight		: normal;
+   	color 			: #0a0a0a;
  
  }
  .no-touch article.index:hover
