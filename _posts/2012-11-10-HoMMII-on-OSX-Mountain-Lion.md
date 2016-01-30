@@ -14,7 +14,7 @@ My main computer is now a MacBookPro and I decided to try to make HoMM2 run on t
 
 - The HoMM2 disc or a copy of it.
 I copied the disc using DiscUtility and simply mount the ISO file every time I want to play.
-- Wineskin - This utility is used to create a wrapper around the HoMM2 Windows program to make it run on your Mac. You can get it [here](http://wineskin.urgesoftware.com/tiki-index.php?page=Downloads){:target="_blank"}.
+- Wineskin - This utility is used to create a wrapper around the HoMM2 Windows program to make it run on your Mac. You can get it [here](http://wineskin.urgesoftware.com/tiki-index.php?page=Downloads).
 
 ### Creating the HoMM2 wrapper
 

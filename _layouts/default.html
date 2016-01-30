@@ -84,4 +84,14 @@ document.documentElement.className +=
 <!-- Frame-Breaker
 	 http://webmastercoffee.com/blog/was-sind-frame-breaker#more-288 -->
 <script>if (top!=self) { top.location=self.location;}</script>
+
+<script>
+var links = document.links;
+
+for (var i = 0, linksLength = links.length; i < linksLength; i++) {
+   if (links[i].hostname != window.location.hostname) {
+       links[i].target = '_blank';
+   } 
+}
+</script>
 </body></html>
