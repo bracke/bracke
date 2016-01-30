@@ -68,19 +68,9 @@ layout: compress
 
 {% include footer.html %}
 
-<script src="/bower_components/fastclick/lib/fastclick.js"></script>
 <!--[if lt IE 9]><script src="bower_components/REM-unit-polyfill/js/rem.min.js"></script><![endif] -->
 <!--[if lt IE 10]><script src="bower_components/aight/aight.min.js"></script><![endif]-->
 
-<script>
-// Enable fastclick to remove 300ms delay on touch devices
-window.addEventListener('load', function() {
-	FastClick.attach(document.body);
-}, false);
-// Detect touch screen
-document.documentElement.className +=
-(("ontouchstart" in document.documentElement) ? ' touch' : ' no-touch');
-</script>
 <!-- Frame-Breaker
 	 http://webmastercoffee.com/blog/was-sind-frame-breaker#more-288 -->
 <script>if (top!=self) { top.location=self.location;}</script>
