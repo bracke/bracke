@@ -71,12 +71,8 @@ You should at the very least add the `dde_linux` repository by uncommenting that
 
 ### Build Genode ELF
 Run `make run/demo` from the `build/foc_rpi` folder to build  Genode.
-
 The result is a `genode.elf` file.
-
-
 The ELF file needs to be converted into a IMG file, since the Raspberry Pi can’t handle ELF files:
-
 
 ```bash
 /usr/local/genode-gcc/bin/genode-arm-objcopy -Obinary var/run/demo/image.elf genode.img
