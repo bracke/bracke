@@ -9,7 +9,7 @@ How to fix 'protocol error: bad line length character: &lt;!DO' problem with the
 When push changes to a project on the Bonobo Git server it fails with the following message:
 
 ```bash
-protocol error: bad line length character: &lt;!DO
+protocol error: bad line length character: <!DO
 ```
 
 It happens only with large commits.
@@ -21,6 +21,6 @@ The problem is the resulting size of the request. There is a max size and when t
 The solution is to increase the max request size in the Bonobos web.config:
 
 ```xml
-&lt;httpRuntime maxRequestLength="2147483647" /&gt;
+<httpRuntime maxRequestLength="2147483647" />
 ```
 
