@@ -15,7 +15,7 @@ protocol error: bad line length character: <!DO
 It happens only with large commits.
 
 
-### The solution
+### The Solution
 The problem is the resulting size of the request. There is a max size and when that is reached it results in apartial request.
 
 The solution is to increase the max request size in the Bonobos web.config:
