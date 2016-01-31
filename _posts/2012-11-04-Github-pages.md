@@ -1,7 +1,7 @@
 ---
 layout: post
-title: GitHub pages
-categories: webdevelopment
+title: GitHub Pages
+categories: webdevelopment GitHub Jekyll
 ---
 I have for quite a while been hosting my homepage (the one you are looking at!) on my own server at home, a MacMini. I have now finally moved the site to GitHub.
 [//]: #

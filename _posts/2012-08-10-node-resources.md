@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Node resources
-categories: webdevelopment
+title: Node Resources
+categories: webdevelopment NodeJS
 ---
 I'm getting into NodeJS programming and have read a lot about it. My background is mainly server-side programming but I have also done a bit javascript on the client side and thus the async ways of Node are not completely foreign to me.
 [//]: #
