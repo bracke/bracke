@@ -6,6 +6,7 @@ categories: webdevelopment
 Supporting older browsers, in particular old Internet Explorer versions, can be very difficult and takes a lot of time and effort.
 If you agree with that statement, then I suggest you add the following rule to the .htaccess file of your Apache site.
 <!--more-->
+
 ```bash
 <IfModule mod_rewrite.c>
   RewriteEngine on
