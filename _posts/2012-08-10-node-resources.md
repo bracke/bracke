@@ -4,7 +4,7 @@ title: Node Resources
 categories: webdevelopment NodeJS
 ---
 I'm getting into NodeJS programming and have read a lot about it. My background is mainly server-side programming but I have also done a bit javascript on the client side and thus the async ways of Node are not completely foreign to me.
-[//]: #
+<!--more-->
 It is however very different from what I'm used to, which is the main reason I'm interested in it!
 The following is a list of resources that helped me in my quest to learn Node.
 

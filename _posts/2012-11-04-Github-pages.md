@@ -4,7 +4,7 @@ title: GitHub Pages
 categories: webdevelopment GitHub Jekyll
 ---
 I have for quite a while been hosting my homepage (the one you are looking at!) on my own server at home, a MacMini. I have now finally moved the site to GitHub.
-[//]: #
+<!--more-->
 
 ### The Process
 The site is still created as a series of static pages by jekyll, a static site generator. I use a slightly modified version of Jekyll and a bunch of extensions.

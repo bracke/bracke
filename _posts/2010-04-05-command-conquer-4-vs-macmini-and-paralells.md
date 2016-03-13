@@ -4,7 +4,7 @@ title: Command &amp; Conquer 4 vs. MacMini and Paralells
 category: gaming
 ---
 My main computer at home is a MacMini (current gen.) which is a very nice machine but probably never meant as gaming machine. Nevertheless I decided to try running C&amp;C 4 on it using Parallels.
-[//]: #
+<!--more-->
 ### It works!
 Surprisingly it seems to work very well. The game runs without a hitch, except for the music which sometimes does skip a bit or two.
 

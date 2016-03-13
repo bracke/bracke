@@ -4,7 +4,7 @@ title: Note to Self - Regarding Apache on OSX Server
 categories: webdevelopment
 ---
 Note to Self - Remember the following when using Apache on a Mac with OSX Server:
-[//]: #
+<!--more-->
 
 - The sites folder is at "<code>/Library/Server/Web/Data/Sites/</code>".
 - The server configuration is at "<code>/Library/Server/Config/apache2/</code>".

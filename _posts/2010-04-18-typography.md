@@ -4,7 +4,7 @@ title: Typography
 categories: webdevelopment
 ---
 It seems typography is the latest and greatest among web designers. All web designers blog about it and magazines write about it. It&#8217;s almost as if it was a new thing. It not new and has in fact been known and used for a very, very long time.
-[//]: #
+<!--more-->
 But on the web it has seen very little attention. On most webpages choosing between two web safe fonts is the height of typography.
 
 ### Much-needed Focus on Typography

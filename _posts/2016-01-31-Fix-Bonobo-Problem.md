@@ -4,7 +4,7 @@ title: Fix Bonobo Problem
 categories: Bonobo Git
 ---
 How to fix 'protocol error: bad line length character: &lt;!DO' problem with the Bonobo Git Server.
-[//]: #
+<!--more-->
 ### The Problem
 When push changes to a project on the Bonobo Git server it fails with the following message:
 
