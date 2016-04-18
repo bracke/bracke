@@ -1,0 +1,20 @@
+---
+layout: default
+title: Portfolio of my open source projects
+---
+{% for repo in site.github.public_repositories %}
+ 
+   {% if repo.fork != true %}
+   <article class="index">
+          
+      <a href="{{ repo.homepage }}">
+      <header>    
+          <h2>{{ repo.name }}</h2>
+      </header>
+      <p>{{ repo.description }}</p>      
+      </a>
+      
+   </article>
+   {% endif %}
+   
+{% endfor %}
