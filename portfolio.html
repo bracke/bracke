@@ -2,7 +2,7 @@
 layout: default
 title: Portfolio of my open source projects
 ---
-{% assign sorted_projects = site.github.public_repositories | sort:'updated_at' | direction:'desc' %}
+{% assign sorted_projects = site.github.public_repositories | sort:'updated_at desc'  %}
 {% for repo in sorted_projects %}
  
    {% if repo.fork != true %}
