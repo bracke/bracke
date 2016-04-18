@@ -2,12 +2,13 @@
 layout: default
 title: Portfolio of my open source projects
 ---
-{% for repo in site.github.public_repositories %}
+{% assign sorted_projects = site.github.public_repositories | sort:'updated_at' %}
+{% for repo in sorted_projects %}
  
    {% if repo.fork != true %}
    <article class="index">
           
-      <a href="{{ repo.homepage }}">
+      <a href="{{ repo.html_url }}">
       <header>    
           <h2>{{ repo.name }}</h2>
       </header>
