@@ -48,20 +48,29 @@ layout: compress
 <body>
 {% include header.html %}
 <ul id="mainMenuList">
-     <li><a href="/index.html">Blog</a></li>
-    <li><a href="/portfolio.html">Portfolio</a></li>
-	<li><a href="/apps.html">Apps</a></li>
-	<li><a href="http://about.me/bracke" target="_blank">About</a></li>
+    <li><a class="menuLink" href="/index.html">Blog</a></li>
+    <li><a class="menuLink" href="/portfolio.html">Portfolio</a></li>
+	<li><a class="menuLink" href="/apps.html">Apps</a></li>
+	<li><a class="menuLink" href="http://about.me/bracke" target="_blank">About</a></li>
 </ul>
 {{ content }}
 {% include footer.html %}
 <script>
-var links = document.links;
+var links = document.getElementById('mainMenuList').links;
 for (var i = 0, linksLength = links.length; i < linksLength; i++) {
    if (links[i].hostname != window.location.hostname) {
        links[i].target = '_blank';
    } 
 }
+</script>
+<script>
+var links = $('.menuLink');
+for (var i = 0, linksLength = links.length; i < linksLength; i++) {
+ /*  if (links[i].hostname != window.location.hostname) {
+       links[i].target = '_blank';
+   }*/
+   debugger; 
+}    
 </script>
 <script type="application/ld+json">
 {
@@ -77,4 +86,5 @@ for (var i = 0, linksLength = links.length; i < linksLength; i++) {
  ]
 }
 </script>
+
 </body></html>
